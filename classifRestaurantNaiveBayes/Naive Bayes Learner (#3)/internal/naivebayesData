@@ -1,0 +1,2563 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<config xmlns="http://www.knime.org/2008/09/XMLConfig" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.knime.org/2008/09/XMLConfig http://www.knime.org/XMLConfig_2008_09.xsd" key="naivebayesDataModel">
+<entry key="ClassColumnName" type="xstring" value="Categorical Price"/>
+<config key="ClassColumnType">
+<entry key="cell_class" type="xstring" value="org.knime.core.data.def.StringCell"/>
+<entry key="is_null" type="xboolean" value="false"/>
+</config>
+<entry key="skipMissingVals" type="xboolean" value="true"/>
+<entry key="Threshold" type="xdouble" value="0.05"/>
+<config key="SkippedAttributes">
+<entry key="SkippedAttributesCounter" type="xint" value="6"/>
+<config key="SkippedAttributeData_0">
+<entry key="attributeName" type="xstring" value="Restaurant Name"/>
+<entry key="type" type="xstring" value="NominalModel"/>
+<entry key="skipMissingVals" type="xboolean" value="true"/>
+<entry key="numberOfMissingValues" type="xint" value="0"/>
+<entry key="invalidCause" type="xstring" value="Too many values"/>
+<config key="data">
+<entry key="maxNoOfAttrs" type="xint" value="50"/>
+<entry key="noOfClasses" type="xint" value="4"/>
+<config key="attributeValues">
+<entry key="array-size" type="xint" value="50"/>
+<entry key="0" type="xstring" value="Ooma"/>
+<entry key="1" type="xstring" value="Din Tai Fung"/>
+<entry key="2" type="xstring" value="Buffet 101"/>
+<entry key="3" type="xstring" value="Vikings"/>
+<entry key="4" type="xstring" value="Spiral - Sofitel Philippine Plaza Manila"/>
+<entry key="5" type="xstring" value="Silantro Fil-Mex"/>
+<entry key="6" type="xstring" value="NIU by Vikings"/>
+<entry key="7" type="xstring" value="The Food Hall by Todd English"/>
+<entry key="8" type="xstring" value="Sandubas Cafí©"/>
+<entry key="9" type="xstring" value="Rovereto"/>
+<entry key="10" type="xstring" value="Taco Pep"/>
+<entry key="11" type="xstring" value="Taypíç"/>
+<entry key="12" type="xstring" value="Outback Steakhouse"/>
+<entry key="13" type="xstring" value="Manzuíç"/>
+<entry key="14" type="xstring" value="Brazilian American Burgers"/>
+<entry key="15" type="xstring" value="Bibi"/>
+<entry key="16" type="xstring" value="Cervantes"/>
+<entry key="17" type="xstring" value="Balada Mix"/>
+<entry key="18" type="xstring" value="Sushi Leblon"/>
+<entry key="19" type="xstring" value="Shirley"/>
+<entry key="20" type="xstring" value="Jiquitaia"/>
+<entry key="21" type="xstring" value="Skye - Hotel Unique"/>
+<entry key="22" type="xstring" value="Red Steak &amp; Burger"/>
+<entry key="23" type="xstring" value="Kawa Sushi"/>
+<entry key="24" type="xstring" value="Divino Fogí£o"/>
+<entry key="25" type="xstring" value="Super Grill"/>
+<entry key="26" type="xstring" value="Veloso"/>
+<entry key="27" type="xstring" value="Locos Grill &amp; Pub"/>
+<entry key="28" type="xstring" value="Mikata Japanese Steakhouse"/>
+<entry key="29" type="xstring" value="Villa Gargano"/>
+<entry key="30" type="xstring" value="3 Squares Diner"/>
+<entry key="31" type="xstring" value="Big City Bread Cafe"/>
+<entry key="32" type="xstring" value="Grit"/>
+<entry key="33" type="xstring" value="The National"/>
+<entry key="34" type="xstring" value="Trappeze Pub"/>
+<entry key="35" type="xstring" value="Manuel's Bread Cafe"/>
+<entry key="36" type="xstring" value="Nacho Mamas Burritos"/>
+<entry key="37" type="xstring" value="The Taj of India"/>
+<entry key="38" type="xstring" value="Augsburg Haus"/>
+<entry key="39" type="xstring" value="Pho Bac"/>
+<entry key="40" type="xstring" value="Rhinehart's Oyster Bar"/>
+<entry key="41" type="xstring" value="El Kiosco Mexican Restaurant"/>
+<entry key="42" type="xstring" value="Flatbread Neapolitan Pizzeria"/>
+<entry key="43" type="xstring" value="Flying Pie Pizzaria"/>
+<entry key="44" type="xstring" value="Los Beto's"/>
+<entry key="45" type="xstring" value="Shige Japanese Cuisine"/>
+<entry key="46" type="xstring" value="The Egg Factory"/>
+<entry key="47" type="xstring" value="Texas Roadhouse"/>
+<entry key="48" type="xstring" value="Brick 29"/>
+<entry key="49" type="xstring" value="Exotic India"/>
+</config>
+<config key="classValueData_0">
+<entry key="classValue" type="xstring" value="Very High"/>
+<entry key="noOfRows" type="xint" value="12"/>
+<entry key="MissingValCounter" type="xint" value="0"/>
+<config key="attributeValues">
+<entry key="array-size" type="xint" value="12"/>
+<entry key="0" type="xstring" value="Buffet 101"/>
+<entry key="1" type="xstring" value="Vikings"/>
+<entry key="2" type="xstring" value="Ooma"/>
+<entry key="3" type="xstring" value="NIU by Vikings"/>
+<entry key="4" type="xstring" value="Manzuíç"/>
+<entry key="5" type="xstring" value="The Food Hall by Todd English"/>
+<entry key="6" type="xstring" value="Spiral - Sofitel Philippine Plaza Manila"/>
+<entry key="7" type="xstring" value="Shirley"/>
+<entry key="8" type="xstring" value="Din Tai Fung"/>
+<entry key="9" type="xstring" value="Sushi Leblon"/>
+<entry key="10" type="xstring" value="Skye - Hotel Unique"/>
+<entry key="11" type="xstring" value="Outback Steakhouse"/>
+</config>
+<config key="attributeCounter">
+<entry key="array-size" type="xint" value="12"/>
+<entry key="0" type="xint" value="1"/>
+<entry key="1" type="xint" value="1"/>
+<entry key="2" type="xint" value="1"/>
+<entry key="3" type="xint" value="1"/>
+<entry key="4" type="xint" value="1"/>
+<entry key="5" type="xint" value="1"/>
+<entry key="6" type="xint" value="1"/>
+<entry key="7" type="xint" value="1"/>
+<entry key="8" type="xint" value="1"/>
+<entry key="9" type="xint" value="1"/>
+<entry key="10" type="xint" value="1"/>
+<entry key="11" type="xint" value="1"/>
+</config>
+</config>
+<config key="classValueData_1">
+<entry key="classValue" type="xstring" value="High"/>
+<entry key="noOfRows" type="xint" value="11"/>
+<entry key="MissingValCounter" type="xint" value="0"/>
+<config key="attributeValues">
+<entry key="array-size" type="xint" value="11"/>
+<entry key="0" type="xstring" value="Cervantes"/>
+<entry key="1" type="xstring" value="Jiquitaia"/>
+<entry key="2" type="xstring" value="Divino Fogí£o"/>
+<entry key="3" type="xstring" value="Red Steak &amp; Burger"/>
+<entry key="4" type="xstring" value="Taypíç"/>
+<entry key="5" type="xstring" value="Kawa Sushi"/>
+<entry key="6" type="xstring" value="Veloso"/>
+<entry key="7" type="xstring" value="Silantro Fil-Mex"/>
+<entry key="8" type="xstring" value="Rovereto"/>
+<entry key="9" type="xstring" value="Taco Pep"/>
+<entry key="10" type="xstring" value="Balada Mix"/>
+</config>
+<config key="attributeCounter">
+<entry key="array-size" type="xint" value="11"/>
+<entry key="0" type="xint" value="1"/>
+<entry key="1" type="xint" value="1"/>
+<entry key="2" type="xint" value="1"/>
+<entry key="3" type="xint" value="1"/>
+<entry key="4" type="xint" value="1"/>
+<entry key="5" type="xint" value="1"/>
+<entry key="6" type="xint" value="1"/>
+<entry key="7" type="xint" value="1"/>
+<entry key="8" type="xint" value="1"/>
+<entry key="9" type="xint" value="1"/>
+<entry key="10" type="xint" value="1"/>
+</config>
+</config>
+<config key="classValueData_2">
+<entry key="classValue" type="xstring" value="Very Low"/>
+<entry key="noOfRows" type="xint" value="20"/>
+<entry key="MissingValCounter" type="xint" value="0"/>
+<config key="attributeValues">
+<entry key="array-size" type="xint" value="20"/>
+<entry key="0" type="xstring" value="The Egg Factory"/>
+<entry key="1" type="xstring" value="Villa Gargano"/>
+<entry key="2" type="xstring" value="Trappeze Pub"/>
+<entry key="3" type="xstring" value="Shige Japanese Cuisine"/>
+<entry key="4" type="xstring" value="3 Squares Diner"/>
+<entry key="5" type="xstring" value="Pho Bac"/>
+<entry key="6" type="xstring" value="Augsburg Haus"/>
+<entry key="7" type="xstring" value="Exotic India"/>
+<entry key="8" type="xstring" value="Nacho Mamas Burritos"/>
+<entry key="9" type="xstring" value="Big City Bread Cafe"/>
+<entry key="10" type="xstring" value="Locos Grill &amp; Pub"/>
+<entry key="11" type="xstring" value="Sandubas Cafí©"/>
+<entry key="12" type="xstring" value="Grit"/>
+<entry key="13" type="xstring" value="El Kiosco Mexican Restaurant"/>
+<entry key="14" type="xstring" value="Los Beto's"/>
+<entry key="15" type="xstring" value="Texas Roadhouse"/>
+<entry key="16" type="xstring" value="Rhinehart's Oyster Bar"/>
+<entry key="17" type="xstring" value="Flying Pie Pizzaria"/>
+<entry key="18" type="xstring" value="The Taj of India"/>
+<entry key="19" type="xstring" value="Flatbread Neapolitan Pizzeria"/>
+</config>
+<config key="attributeCounter">
+<entry key="array-size" type="xint" value="20"/>
+<entry key="0" type="xint" value="1"/>
+<entry key="1" type="xint" value="1"/>
+<entry key="2" type="xint" value="1"/>
+<entry key="3" type="xint" value="1"/>
+<entry key="4" type="xint" value="1"/>
+<entry key="5" type="xint" value="1"/>
+<entry key="6" type="xint" value="1"/>
+<entry key="7" type="xint" value="1"/>
+<entry key="8" type="xint" value="1"/>
+<entry key="9" type="xint" value="1"/>
+<entry key="10" type="xint" value="1"/>
+<entry key="11" type="xint" value="1"/>
+<entry key="12" type="xint" value="1"/>
+<entry key="13" type="xint" value="1"/>
+<entry key="14" type="xint" value="1"/>
+<entry key="15" type="xint" value="1"/>
+<entry key="16" type="xint" value="1"/>
+<entry key="17" type="xint" value="1"/>
+<entry key="18" type="xint" value="1"/>
+<entry key="19" type="xint" value="1"/>
+</config>
+</config>
+<config key="classValueData_3">
+<entry key="classValue" type="xstring" value="Low"/>
+<entry key="noOfRows" type="xint" value="7"/>
+<entry key="MissingValCounter" type="xint" value="0"/>
+<config key="attributeValues">
+<entry key="array-size" type="xint" value="7"/>
+<entry key="0" type="xstring" value="Bibi"/>
+<entry key="1" type="xstring" value="The National"/>
+<entry key="2" type="xstring" value="Brazilian American Burgers"/>
+<entry key="3" type="xstring" value="Brick 29"/>
+<entry key="4" type="xstring" value="Super Grill"/>
+<entry key="5" type="xstring" value="Manuel's Bread Cafe"/>
+<entry key="6" type="xstring" value="Mikata Japanese Steakhouse"/>
+</config>
+<config key="attributeCounter">
+<entry key="array-size" type="xint" value="7"/>
+<entry key="0" type="xint" value="1"/>
+<entry key="1" type="xint" value="1"/>
+<entry key="2" type="xint" value="1"/>
+<entry key="3" type="xint" value="1"/>
+<entry key="4" type="xint" value="1"/>
+<entry key="5" type="xint" value="1"/>
+<entry key="6" type="xint" value="1"/>
+</config>
+</config>
+</config>
+</config>
+<config key="SkippedAttributeData_1">
+<entry key="attributeName" type="xstring" value="Address"/>
+<entry key="type" type="xstring" value="NominalModel"/>
+<entry key="skipMissingVals" type="xboolean" value="true"/>
+<entry key="numberOfMissingValues" type="xint" value="0"/>
+<entry key="invalidCause" type="xstring" value="Too many values"/>
+<config key="data">
+<entry key="maxNoOfAttrs" type="xint" value="50"/>
+<entry key="noOfClasses" type="xint" value="4"/>
+<config key="attributeValues">
+<entry key="array-size" type="xint" value="50"/>
+<entry key="0" type="xstring" value="Third Floor, Mega Fashion Hall, SM Megamall, Ortigas, Mandaluyong City"/>
+<entry key="1" type="xstring" value="Ground Floor, Mega Fashion Hall, SM Megamall, Ortigas, Mandaluyong City"/>
+<entry key="2" type="xstring" value="Building K, SM By The Bay, Sunset Boulevard, Mall of Asia Complex (MOA), Pasay City"/>
+<entry key="3" type="xstring" value="Building B, By The Bay, Seaside Boulevard, Mall of Asia Complex (MOA), Pasay City"/>
+<entry key="4" type="xstring" value="Plaza Level, Sofitel Philippine Plaza Manila, CCP Complex, Pasay City"/>
+<entry key="5" type="xstring" value="Second Floor, UP Town Center, Katipunan Avenue, Diliman, Quezon City"/>
+<entry key="6" type="xstring" value="Sixth Floor, SM Aura Premier, C5 Road Corner 26th Street, Bonifacio Global City, Taguig City"/>
+<entry key="7" type="xstring" value="Fifth Floor, SM Aura Premier, C5 Corner 26th Street, Bonifacio Global City, Taguig City"/>
+<entry key="8" type="xstring" value="Edifí_cio Josí© Severo, SCS 6, Bloco A, Loja 99, Asa Sul, Brasí_lia"/>
+<entry key="9" type="xstring" value="Rua 13 Norte, Lote 4, í&#129;guas Claras, Brasí_lia"/>
+<entry key="10" type="xstring" value="Vila Malls, Avenida das Castanheiras, Lote 1060, í&#128;guas Claras, Brasí_lia"/>
+<entry key="11" type="xstring" value="Fashion Park, Shis Ql 17, Bloco G, Loja 208, Lago Sul, Brasí_lia"/>
+<entry key="12" type="xstring" value="ParkShopping - Piso 2, SAI/SO, í&#129;rea 6580, Guaríç I, Brasí_lia"/>
+<entry key="13" type="xstring" value="Pontí£o Lago Sul, SHIS 10, Lote 9, Lago Sul, Brasí_lia"/>
+<entry key="14" type="xstring" value="CLSN 301, Bloco C, Loja 86, Sudoeste, Brasí_lia"/>
+<entry key="15" type="xstring" value="Rua Santa Clara, 36, Copabana, Rio de Janeiro"/>
+<entry key="16" type="xstring" value="Avenida Prado Junior, 335 B, Copacabana, Rio de Janeiro"/>
+<entry key="17" type="xstring" value="Rua Aní_bal de Mendoní_a, 37, Ipanema, Rio de Janeiro"/>
+<entry key="18" type="xstring" value="Rua Dias Ferreira, 256, Leblon, Rio de Janeiro"/>
+<entry key="19" type="xstring" value="Rua Gustavo Sampaio, 610, Leme, Rio de Janeiro"/>
+<entry key="20" type="xstring" value="Rua AntíÇnio Carlos, 268, Consolaí_í£o, Sí£o Paulo"/>
+<entry key="21" type="xstring" value="Hotel Unique, Avenida Brigadeiro Luí_s AntíÇnio, 4700, Jardim Paulista, Sí£o Paulo"/>
+<entry key="22" type="xstring" value="Rua Tabapuí£, 1417, Itaim Bibi, Sí£o Paulo"/>
+<entry key="23" type="xstring" value="Alameda Lorena, 300, Jardim Paulista, Sí£o Paulo"/>
+<entry key="24" type="xstring" value="Shopping MetríÇ Santa Cruz - Piso L2, Rua Domingos de Morais, 2564, Vila Mariana, Sí£o Paulo"/>
+<entry key="25" type="xstring" value="Shopping Morumbi - Piso Lazer, Avenida Roque Petroni Jí_nior, 1089, Santo Amaro, Sí£o Paulo"/>
+<entry key="26" type="xstring" value="Rua Conceií_í£o Veloso, 56, Vila Mariana, Sí£o Paulo"/>
+<entry key="27" type="xstring" value="547 N Westover Blvd, Albany, GA 31707"/>
+<entry key="28" type="xstring" value="2610 Dawson Rd, Albany, GA 31707"/>
+<entry key="29" type="xstring" value="1604 N Slappey Blvd, Albany, GA 31701"/>
+<entry key="30" type="xstring" value="202 W Franklin St, Sylvester, GA 31791"/>
+<entry key="31" type="xstring" value="393 N Finley St, Athens, GA 30601"/>
+<entry key="32" type="xstring" value="199 Prince Ave, Athens, GA 30601"/>
+<entry key="33" type="xstring" value="232 W. Hancock Ave., Athens, GA 30601"/>
+<entry key="34" type="xstring" value="269 N Hull St, Athens, GA 30601"/>
+<entry key="35" type="xstring" value="505 Railroad Ave, North Augusta, GA 29841"/>
+<entry key="36" type="xstring" value="976 Broad St, Augusta, GA 30901"/>
+<entry key="37" type="xstring" value="502 Furys Ferry Rd, Augusta, GA 30907"/>
+<entry key="38" type="xstring" value="4460 Washington Road, Evans, GA 30809"/>
+<entry key="39" type="xstring" value="4300 Towne Centre, Evans, GA 30809"/>
+<entry key="40" type="xstring" value="303 North Bel Air Rd, Evans, GA 30809"/>
+<entry key="41" type="xstring" value="5174 Wrightsboro Rd, Grovetown, GA 30813"/>
+<entry key="42" type="xstring" value="800 W Main Suite 230, Boise, ID 83702"/>
+<entry key="43" type="xstring" value="6508 W Fairview Ave, Boise, ID 83704"/>
+<entry key="44" type="xstring" value="5220 W Fairview Ave, Boise, ID 83706"/>
+<entry key="45" type="xstring" value="100 N 8th St, Boise, ID 83702"/>
+<entry key="46" type="xstring" value="8061 W Fairview Ave, Boise, ID 83704"/>
+<entry key="47" type="xstring" value="3801 E Fairview Avenue, Meridian, Boise, ID 83642"/>
+<entry key="48" type="xstring" value="320 11th Avenue S, Nampa, ID 83651"/>
+<entry key="49" type="xstring" value="102 2nd Ave, Coralville, IA 52241"/>
+</config>
+<config key="classValueData_0">
+<entry key="classValue" type="xstring" value="Very High"/>
+<entry key="noOfRows" type="xint" value="12"/>
+<entry key="MissingValCounter" type="xint" value="0"/>
+<config key="attributeValues">
+<entry key="array-size" type="xint" value="12"/>
+<entry key="0" type="xstring" value="Building B, By The Bay, Seaside Boulevard, Mall of Asia Complex (MOA), Pasay City"/>
+<entry key="1" type="xstring" value="Ground Floor, Mega Fashion Hall, SM Megamall, Ortigas, Mandaluyong City"/>
+<entry key="2" type="xstring" value="Building K, SM By The Bay, Sunset Boulevard, Mall of Asia Complex (MOA), Pasay City"/>
+<entry key="3" type="xstring" value="Fifth Floor, SM Aura Premier, C5 Corner 26th Street, Bonifacio Global City, Taguig City"/>
+<entry key="4" type="xstring" value="Hotel Unique, Avenida Brigadeiro Luí_s AntíÇnio, 4700, Jardim Paulista, Sí£o Paulo"/>
+<entry key="5" type="xstring" value="Third Floor, Mega Fashion Hall, SM Megamall, Ortigas, Mandaluyong City"/>
+<entry key="6" type="xstring" value="Rua Dias Ferreira, 256, Leblon, Rio de Janeiro"/>
+<entry key="7" type="xstring" value="Rua Gustavo Sampaio, 610, Leme, Rio de Janeiro"/>
+<entry key="8" type="xstring" value="Plaza Level, Sofitel Philippine Plaza Manila, CCP Complex, Pasay City"/>
+<entry key="9" type="xstring" value="Sixth Floor, SM Aura Premier, C5 Road Corner 26th Street, Bonifacio Global City, Taguig City"/>
+<entry key="10" type="xstring" value="Pontí£o Lago Sul, SHIS 10, Lote 9, Lago Sul, Brasí_lia"/>
+<entry key="11" type="xstring" value="ParkShopping - Piso 2, SAI/SO, í&#129;rea 6580, Guaríç I, Brasí_lia"/>
+</config>
+<config key="attributeCounter">
+<entry key="array-size" type="xint" value="12"/>
+<entry key="0" type="xint" value="1"/>
+<entry key="1" type="xint" value="1"/>
+<entry key="2" type="xint" value="1"/>
+<entry key="3" type="xint" value="1"/>
+<entry key="4" type="xint" value="1"/>
+<entry key="5" type="xint" value="1"/>
+<entry key="6" type="xint" value="1"/>
+<entry key="7" type="xint" value="1"/>
+<entry key="8" type="xint" value="1"/>
+<entry key="9" type="xint" value="1"/>
+<entry key="10" type="xint" value="1"/>
+<entry key="11" type="xint" value="1"/>
+</config>
+</config>
+<config key="classValueData_1">
+<entry key="classValue" type="xstring" value="High"/>
+<entry key="noOfRows" type="xint" value="11"/>
+<entry key="MissingValCounter" type="xint" value="0"/>
+<config key="attributeValues">
+<entry key="array-size" type="xint" value="11"/>
+<entry key="0" type="xstring" value="Alameda Lorena, 300, Jardim Paulista, Sí£o Paulo"/>
+<entry key="1" type="xstring" value="Avenida Prado Junior, 335 B, Copacabana, Rio de Janeiro"/>
+<entry key="2" type="xstring" value="Rua Tabapuí£, 1417, Itaim Bibi, Sí£o Paulo"/>
+<entry key="3" type="xstring" value="Second Floor, UP Town Center, Katipunan Avenue, Diliman, Quezon City"/>
+<entry key="4" type="xstring" value="Rua Conceií_í£o Veloso, 56, Vila Mariana, Sí£o Paulo"/>
+<entry key="5" type="xstring" value="Rua 13 Norte, Lote 4, í&#129;guas Claras, Brasí_lia"/>
+<entry key="6" type="xstring" value="Fashion Park, Shis Ql 17, Bloco G, Loja 208, Lago Sul, Brasí_lia"/>
+<entry key="7" type="xstring" value="Vila Malls, Avenida das Castanheiras, Lote 1060, í&#128;guas Claras, Brasí_lia"/>
+<entry key="8" type="xstring" value="Shopping MetríÇ Santa Cruz - Piso L2, Rua Domingos de Morais, 2564, Vila Mariana, Sí£o Paulo"/>
+<entry key="9" type="xstring" value="Rua AntíÇnio Carlos, 268, Consolaí_í£o, Sí£o Paulo"/>
+<entry key="10" type="xstring" value="Rua Aní_bal de Mendoní_a, 37, Ipanema, Rio de Janeiro"/>
+</config>
+<config key="attributeCounter">
+<entry key="array-size" type="xint" value="11"/>
+<entry key="0" type="xint" value="1"/>
+<entry key="1" type="xint" value="1"/>
+<entry key="2" type="xint" value="1"/>
+<entry key="3" type="xint" value="1"/>
+<entry key="4" type="xint" value="1"/>
+<entry key="5" type="xint" value="1"/>
+<entry key="6" type="xint" value="1"/>
+<entry key="7" type="xint" value="1"/>
+<entry key="8" type="xint" value="1"/>
+<entry key="9" type="xint" value="1"/>
+<entry key="10" type="xint" value="1"/>
+</config>
+</config>
+<config key="classValueData_2">
+<entry key="classValue" type="xstring" value="Very Low"/>
+<entry key="noOfRows" type="xint" value="20"/>
+<entry key="MissingValCounter" type="xint" value="0"/>
+<config key="attributeValues">
+<entry key="array-size" type="xint" value="20"/>
+<entry key="0" type="xstring" value="199 Prince Ave, Athens, GA 30601"/>
+<entry key="1" type="xstring" value="Edifí_cio Josí© Severo, SCS 6, Bloco A, Loja 99, Asa Sul, Brasí_lia"/>
+<entry key="2" type="xstring" value="8061 W Fairview Ave, Boise, ID 83704"/>
+<entry key="3" type="xstring" value="547 N Westover Blvd, Albany, GA 31707"/>
+<entry key="4" type="xstring" value="202 W Franklin St, Sylvester, GA 31791"/>
+<entry key="5" type="xstring" value="5174 Wrightsboro Rd, Grovetown, GA 30813"/>
+<entry key="6" type="xstring" value="502 Furys Ferry Rd, Augusta, GA 30907"/>
+<entry key="7" type="xstring" value="303 North Bel Air Rd, Evans, GA 30809"/>
+<entry key="8" type="xstring" value="4460 Washington Road, Evans, GA 30809"/>
+<entry key="9" type="xstring" value="6508 W Fairview Ave, Boise, ID 83704"/>
+<entry key="10" type="xstring" value="800 W Main Suite 230, Boise, ID 83702"/>
+<entry key="11" type="xstring" value="5220 W Fairview Ave, Boise, ID 83706"/>
+<entry key="12" type="xstring" value="102 2nd Ave, Coralville, IA 52241"/>
+<entry key="13" type="xstring" value="1604 N Slappey Blvd, Albany, GA 31701"/>
+<entry key="14" type="xstring" value="4300 Towne Centre, Evans, GA 30809"/>
+<entry key="15" type="xstring" value="269 N Hull St, Athens, GA 30601"/>
+<entry key="16" type="xstring" value="393 N Finley St, Athens, GA 30601"/>
+<entry key="17" type="xstring" value="976 Broad St, Augusta, GA 30901"/>
+<entry key="18" type="xstring" value="3801 E Fairview Avenue, Meridian, Boise, ID 83642"/>
+<entry key="19" type="xstring" value="100 N 8th St, Boise, ID 83702"/>
+</config>
+<config key="attributeCounter">
+<entry key="array-size" type="xint" value="20"/>
+<entry key="0" type="xint" value="1"/>
+<entry key="1" type="xint" value="1"/>
+<entry key="2" type="xint" value="1"/>
+<entry key="3" type="xint" value="1"/>
+<entry key="4" type="xint" value="1"/>
+<entry key="5" type="xint" value="1"/>
+<entry key="6" type="xint" value="1"/>
+<entry key="7" type="xint" value="1"/>
+<entry key="8" type="xint" value="1"/>
+<entry key="9" type="xint" value="1"/>
+<entry key="10" type="xint" value="1"/>
+<entry key="11" type="xint" value="1"/>
+<entry key="12" type="xint" value="1"/>
+<entry key="13" type="xint" value="1"/>
+<entry key="14" type="xint" value="1"/>
+<entry key="15" type="xint" value="1"/>
+<entry key="16" type="xint" value="1"/>
+<entry key="17" type="xint" value="1"/>
+<entry key="18" type="xint" value="1"/>
+<entry key="19" type="xint" value="1"/>
+</config>
+</config>
+<config key="classValueData_3">
+<entry key="classValue" type="xstring" value="Low"/>
+<entry key="noOfRows" type="xint" value="7"/>
+<entry key="MissingValCounter" type="xint" value="0"/>
+<config key="attributeValues">
+<entry key="array-size" type="xint" value="7"/>
+<entry key="0" type="xstring" value="320 11th Avenue S, Nampa, ID 83651"/>
+<entry key="1" type="xstring" value="Rua Santa Clara, 36, Copabana, Rio de Janeiro"/>
+<entry key="2" type="xstring" value="CLSN 301, Bloco C, Loja 86, Sudoeste, Brasí_lia"/>
+<entry key="3" type="xstring" value="2610 Dawson Rd, Albany, GA 31707"/>
+<entry key="4" type="xstring" value="232 W. Hancock Ave., Athens, GA 30601"/>
+<entry key="5" type="xstring" value="Shopping Morumbi - Piso Lazer, Avenida Roque Petroni Jí_nior, 1089, Santo Amaro, Sí£o Paulo"/>
+<entry key="6" type="xstring" value="505 Railroad Ave, North Augusta, GA 29841"/>
+</config>
+<config key="attributeCounter">
+<entry key="array-size" type="xint" value="7"/>
+<entry key="0" type="xint" value="1"/>
+<entry key="1" type="xint" value="1"/>
+<entry key="2" type="xint" value="1"/>
+<entry key="3" type="xint" value="1"/>
+<entry key="4" type="xint" value="1"/>
+<entry key="5" type="xint" value="1"/>
+<entry key="6" type="xint" value="1"/>
+</config>
+</config>
+</config>
+</config>
+<config key="SkippedAttributeData_2">
+<entry key="attributeName" type="xstring" value="Cuisines"/>
+<entry key="type" type="xstring" value="NominalModel"/>
+<entry key="skipMissingVals" type="xboolean" value="true"/>
+<entry key="numberOfMissingValues" type="xint" value="0"/>
+<entry key="invalidCause" type="xstring" value="Too many values"/>
+<config key="data">
+<entry key="maxNoOfAttrs" type="xint" value="50"/>
+<entry key="noOfClasses" type="xint" value="4"/>
+<config key="attributeValues">
+<entry key="array-size" type="xint" value="50"/>
+<entry key="0" type="xstring" value="Japanese, Sushi"/>
+<entry key="1" type="xstring" value="Chinese"/>
+<entry key="2" type="xstring" value="Asian, European"/>
+<entry key="3" type="xstring" value="Seafood, Filipino, Asian, European"/>
+<entry key="4" type="xstring" value="European, Asian, Indian"/>
+<entry key="5" type="xstring" value="Filipino, Mexican"/>
+<entry key="6" type="xstring" value="Seafood, American, Mediterranean, Japanese"/>
+<entry key="7" type="xstring" value="American, Asian, Italian, Seafood"/>
+<entry key="8" type="xstring" value="Brazilian, Cafe"/>
+<entry key="9" type="xstring" value="Pizza"/>
+<entry key="10" type="xstring" value="Mexican, Grill"/>
+<entry key="11" type="xstring" value="Peruvian, Latin American"/>
+<entry key="12" type="xstring" value="American, Grill"/>
+<entry key="13" type="xstring" value="Seafood"/>
+<entry key="14" type="xstring" value="American, Burger"/>
+<entry key="15" type="xstring" value="Juices, Healthy Food"/>
+<entry key="16" type="xstring" value="Beverages, Bar Food, Fast Food"/>
+<entry key="17" type="xstring" value="Brazilian, Healthy Food, Juices, Pizza"/>
+<entry key="18" type="xstring" value="Japanese"/>
+<entry key="19" type="xstring" value="Brazilian, Seafood"/>
+<entry key="20" type="xstring" value="Brazilian"/>
+<entry key="21" type="xstring" value="Beverages, International"/>
+<entry key="22" type="xstring" value="Brazilian, Grill"/>
+<entry key="23" type="xstring" value="Sushi, Japanese"/>
+<entry key="24" type="xstring" value="Brazilian, Mineira"/>
+<entry key="25" type="xstring" value="Brazilian, Bar Food, Beverages"/>
+<entry key="26" type="xstring" value="American, Burger, Sandwich"/>
+<entry key="27" type="xstring" value="Japanese, Steak, Sushi"/>
+<entry key="28" type="xstring" value="Italian, Pizza"/>
+<entry key="29" type="xstring" value="American, Breakfast, Diner"/>
+<entry key="30" type="xstring" value="Breakfast, Sandwich"/>
+<entry key="31" type="xstring" value="International, Southern, Vegetarian"/>
+<entry key="32" type="xstring" value="International, Southern"/>
+<entry key="33" type="xstring" value="Burger, Bar Food"/>
+<entry key="34" type="xstring" value="Breakfast, French"/>
+<entry key="35" type="xstring" value="Mexican"/>
+<entry key="36" type="xstring" value="Indian"/>
+<entry key="37" type="xstring" value="German"/>
+<entry key="38" type="xstring" value="Vietnamese"/>
+<entry key="39" type="xstring" value="Burger, Seafood"/>
+<entry key="40" type="xstring" value="Japanese, Sushi, Teriyaki"/>
+<entry key="41" type="xstring" value="Breakfast"/>
+<entry key="42" type="xstring" value="American, BBQ, Steak"/>
+<entry key="43" type="xstring" value="American"/>
+<entry key="44" type="xstring" value="International"/>
+<entry key="45" type="xstring" value="American, Breakfast"/>
+<entry key="46" type="xstring" value="Japanese, Sushi, Thai"/>
+<entry key="47" type="xstring" value="Steak"/>
+<entry key="48" type="xstring" value="BBQ, Southern"/>
+<entry key="49" type="xstring" value="Italian, Mediterranean, Pizza"/>
+</config>
+<config key="classValueData_0">
+<entry key="classValue" type="xstring" value="Very High"/>
+<entry key="noOfRows" type="xint" value="12"/>
+<entry key="MissingValCounter" type="xint" value="0"/>
+<config key="attributeValues">
+<entry key="array-size" type="xint" value="12"/>
+<entry key="0" type="xstring" value="European, Asian, Indian"/>
+<entry key="1" type="xstring" value="Beverages, International"/>
+<entry key="2" type="xstring" value="Seafood, Filipino, Asian, European"/>
+<entry key="3" type="xstring" value="Seafood"/>
+<entry key="4" type="xstring" value="Chinese"/>
+<entry key="5" type="xstring" value="American, Asian, Italian, Seafood"/>
+<entry key="6" type="xstring" value="Brazilian, Seafood"/>
+<entry key="7" type="xstring" value="American, Grill"/>
+<entry key="8" type="xstring" value="Japanese, Sushi"/>
+<entry key="9" type="xstring" value="Asian, European"/>
+<entry key="10" type="xstring" value="Japanese"/>
+<entry key="11" type="xstring" value="Seafood, American, Mediterranean, Japanese"/>
+</config>
+<config key="attributeCounter">
+<entry key="array-size" type="xint" value="12"/>
+<entry key="0" type="xint" value="1"/>
+<entry key="1" type="xint" value="1"/>
+<entry key="2" type="xint" value="1"/>
+<entry key="3" type="xint" value="1"/>
+<entry key="4" type="xint" value="1"/>
+<entry key="5" type="xint" value="1"/>
+<entry key="6" type="xint" value="1"/>
+<entry key="7" type="xint" value="1"/>
+<entry key="8" type="xint" value="1"/>
+<entry key="9" type="xint" value="1"/>
+<entry key="10" type="xint" value="1"/>
+<entry key="11" type="xint" value="1"/>
+</config>
+</config>
+<config key="classValueData_1">
+<entry key="classValue" type="xstring" value="High"/>
+<entry key="noOfRows" type="xint" value="11"/>
+<entry key="MissingValCounter" type="xint" value="0"/>
+<config key="attributeValues">
+<entry key="array-size" type="xint" value="11"/>
+<entry key="0" type="xstring" value="Filipino, Mexican"/>
+<entry key="1" type="xstring" value="Pizza"/>
+<entry key="2" type="xstring" value="Brazilian, Healthy Food, Juices, Pizza"/>
+<entry key="3" type="xstring" value="Peruvian, Latin American"/>
+<entry key="4" type="xstring" value="Brazilian, Bar Food, Beverages"/>
+<entry key="5" type="xstring" value="Mexican, Grill"/>
+<entry key="6" type="xstring" value="Sushi, Japanese"/>
+<entry key="7" type="xstring" value="Brazilian"/>
+<entry key="8" type="xstring" value="Beverages, Bar Food, Fast Food"/>
+<entry key="9" type="xstring" value="Brazilian, Mineira"/>
+<entry key="10" type="xstring" value="Brazilian, Grill"/>
+</config>
+<config key="attributeCounter">
+<entry key="array-size" type="xint" value="11"/>
+<entry key="0" type="xint" value="1"/>
+<entry key="1" type="xint" value="1"/>
+<entry key="2" type="xint" value="1"/>
+<entry key="3" type="xint" value="1"/>
+<entry key="4" type="xint" value="1"/>
+<entry key="5" type="xint" value="1"/>
+<entry key="6" type="xint" value="1"/>
+<entry key="7" type="xint" value="1"/>
+<entry key="8" type="xint" value="1"/>
+<entry key="9" type="xint" value="1"/>
+<entry key="10" type="xint" value="1"/>
+</config>
+</config>
+<config key="classValueData_2">
+<entry key="classValue" type="xstring" value="Very Low"/>
+<entry key="noOfRows" type="xint" value="24"/>
+<entry key="MissingValCounter" type="xint" value="0"/>
+<config key="attributeValues">
+<entry key="array-size" type="xint" value="19"/>
+<entry key="0" type="xstring" value="International, Southern, Vegetarian"/>
+<entry key="1" type="xstring" value="Mexican"/>
+<entry key="2" type="xstring" value="Breakfast"/>
+<entry key="3" type="xstring" value="Breakfast, Sandwich"/>
+<entry key="4" type="xstring" value="Burger, Bar Food"/>
+<entry key="5" type="xstring" value="Japanese, Sushi, Teriyaki"/>
+<entry key="6" type="xstring" value="Italian, Pizza"/>
+<entry key="7" type="xstring" value="American, Breakfast"/>
+<entry key="8" type="xstring" value="Steak"/>
+<entry key="9" type="xstring" value="German"/>
+<entry key="10" type="xstring" value="American, Breakfast, Diner"/>
+<entry key="11" type="xstring" value="Brazilian, Cafe"/>
+<entry key="12" type="xstring" value="Pizza"/>
+<entry key="13" type="xstring" value="BBQ, Southern"/>
+<entry key="14" type="xstring" value="American, Burger, Sandwich"/>
+<entry key="15" type="xstring" value="Indian"/>
+<entry key="16" type="xstring" value="Vietnamese"/>
+<entry key="17" type="xstring" value="Burger, Seafood"/>
+<entry key="18" type="xstring" value="American, BBQ, Steak"/>
+</config>
+<config key="attributeCounter">
+<entry key="array-size" type="xint" value="19"/>
+<entry key="0" type="xint" value="1"/>
+<entry key="1" type="xint" value="3"/>
+<entry key="2" type="xint" value="1"/>
+<entry key="3" type="xint" value="1"/>
+<entry key="4" type="xint" value="1"/>
+<entry key="5" type="xint" value="1"/>
+<entry key="6" type="xint" value="2"/>
+<entry key="7" type="xint" value="1"/>
+<entry key="8" type="xint" value="1"/>
+<entry key="9" type="xint" value="1"/>
+<entry key="10" type="xint" value="1"/>
+<entry key="11" type="xint" value="1"/>
+<entry key="12" type="xint" value="2"/>
+<entry key="13" type="xint" value="1"/>
+<entry key="14" type="xint" value="1"/>
+<entry key="15" type="xint" value="2"/>
+<entry key="16" type="xint" value="1"/>
+<entry key="17" type="xint" value="1"/>
+<entry key="18" type="xint" value="1"/>
+</config>
+</config>
+<config key="classValueData_3">
+<entry key="classValue" type="xstring" value="Low"/>
+<entry key="noOfRows" type="xint" value="10"/>
+<entry key="MissingValCounter" type="xint" value="0"/>
+<config key="attributeValues">
+<entry key="array-size" type="xint" value="10"/>
+<entry key="0" type="xstring" value="American, Burger"/>
+<entry key="1" type="xstring" value="Japanese, Sushi, Thai"/>
+<entry key="2" type="xstring" value="International, Southern"/>
+<entry key="3" type="xstring" value="Juices, Healthy Food"/>
+<entry key="4" type="xstring" value="American"/>
+<entry key="5" type="xstring" value="Brazilian"/>
+<entry key="6" type="xstring" value="Breakfast, French"/>
+<entry key="7" type="xstring" value="Japanese, Steak, Sushi"/>
+<entry key="8" type="xstring" value="Italian, Mediterranean, Pizza"/>
+<entry key="9" type="xstring" value="International"/>
+</config>
+<config key="attributeCounter">
+<entry key="array-size" type="xint" value="10"/>
+<entry key="0" type="xint" value="1"/>
+<entry key="1" type="xint" value="1"/>
+<entry key="2" type="xint" value="1"/>
+<entry key="3" type="xint" value="1"/>
+<entry key="4" type="xint" value="1"/>
+<entry key="5" type="xint" value="1"/>
+<entry key="6" type="xint" value="1"/>
+<entry key="7" type="xint" value="1"/>
+<entry key="8" type="xint" value="1"/>
+<entry key="9" type="xint" value="1"/>
+</config>
+</config>
+</config>
+</config>
+<config key="SkippedAttributeData_3">
+<entry key="attributeName" type="xstring" value="Locality"/>
+<entry key="type" type="xstring" value="NominalModel"/>
+<entry key="skipMissingVals" type="xboolean" value="true"/>
+<entry key="numberOfMissingValues" type="xint" value="0"/>
+<entry key="invalidCause" type="xstring" value="Too many values"/>
+<config key="data">
+<entry key="maxNoOfAttrs" type="xint" value="50"/>
+<entry key="noOfClasses" type="xint" value="4"/>
+<config key="attributeValues">
+<entry key="array-size" type="xint" value="50"/>
+<entry key="0" type="xstring" value="SM Megamall, Ortigas, Mandaluyong City"/>
+<entry key="1" type="xstring" value="SM by the Bay, Mall of Asia Complex, Pasay City"/>
+<entry key="2" type="xstring" value="Sofitel Philippine Plaza Manila, Pasay City"/>
+<entry key="3" type="xstring" value="UP Town Center, Diliman, Quezon City"/>
+<entry key="4" type="xstring" value="SM Aura Premier, Bonifacio Global City, Taguig City"/>
+<entry key="5" type="xstring" value="Asa Sul"/>
+<entry key="6" type="xstring" value="í&#129;guas Claras"/>
+<entry key="7" type="xstring" value="Lago Sul"/>
+<entry key="8" type="xstring" value="ParkShopping, Guaríç I"/>
+<entry key="9" type="xstring" value="Pontí£o Lago Sul, Lago Sul"/>
+<entry key="10" type="xstring" value="Sudoeste"/>
+<entry key="11" type="xstring" value="Copacabana"/>
+<entry key="12" type="xstring" value="Ipanema"/>
+<entry key="13" type="xstring" value="Leblon"/>
+<entry key="14" type="xstring" value="Leme"/>
+<entry key="15" type="xstring" value="Consolaí_í£o"/>
+<entry key="16" type="xstring" value="Hotel Unique, Jardim Paulista"/>
+<entry key="17" type="xstring" value="Itaim Bibi"/>
+<entry key="18" type="xstring" value="Jardim Paulista"/>
+<entry key="19" type="xstring" value="Shopping MetríÇ Santa Cruz, Vila Mariana"/>
+<entry key="20" type="xstring" value="Shopping Morumbi, Santo Amaro"/>
+<entry key="21" type="xstring" value="Vila Mariana"/>
+<entry key="22" type="xstring" value="Albany"/>
+<entry key="23" type="xstring" value="Sylvester"/>
+<entry key="24" type="xstring" value="Athens"/>
+<entry key="25" type="xstring" value="Augusta"/>
+<entry key="26" type="xstring" value="Evans"/>
+<entry key="27" type="xstring" value="Grovetown"/>
+<entry key="28" type="xstring" value="Boise"/>
+<entry key="29" type="xstring" value="Meridian"/>
+<entry key="30" type="xstring" value="Nampa"/>
+<entry key="31" type="xstring" value="Coralville"/>
+<entry key="32" type="xstring" value="Iowa City"/>
+<entry key="33" type="xstring" value="Columbus"/>
+<entry key="34" type="xstring" value="Hamilton"/>
+<entry key="35" type="xstring" value="Calhoun"/>
+<entry key="36" type="xstring" value="Dalton"/>
+<entry key="37" type="xstring" value="LaFayette"/>
+<entry key="38" type="xstring" value="Rock Spring"/>
+<entry key="39" type="xstring" value="Bettendorf"/>
+<entry key="40" type="xstring" value="Davenport"/>
+<entry key="41" type="xstring" value="Clive"/>
+<entry key="42" type="xstring" value="Downtown"/>
+<entry key="43" type="xstring" value="West Des Moines"/>
+<entry key="44" type="xstring" value="Dicky Beach"/>
+<entry key="45" type="xstring" value="Dubuque"/>
+<entry key="46" type="xstring" value="Fernley"/>
+<entry key="47" type="xstring" value="Forrest"/>
+<entry key="48" type="xstring" value="Clarkesville"/>
+<entry key="49" type="xstring" value="Dahlonega"/>
+</config>
+<config key="classValueData_0">
+<entry key="classValue" type="xstring" value="Very High"/>
+<entry key="noOfRows" type="xint" value="12"/>
+<entry key="MissingValCounter" type="xint" value="0"/>
+<config key="attributeValues">
+<entry key="array-size" type="xint" value="9"/>
+<entry key="0" type="xstring" value="ParkShopping, Guaríç I"/>
+<entry key="1" type="xstring" value="Pontí£o Lago Sul, Lago Sul"/>
+<entry key="2" type="xstring" value="Sofitel Philippine Plaza Manila, Pasay City"/>
+<entry key="3" type="xstring" value="SM Aura Premier, Bonifacio Global City, Taguig City"/>
+<entry key="4" type="xstring" value="Leme"/>
+<entry key="5" type="xstring" value="Hotel Unique, Jardim Paulista"/>
+<entry key="6" type="xstring" value="SM Megamall, Ortigas, Mandaluyong City"/>
+<entry key="7" type="xstring" value="SM by the Bay, Mall of Asia Complex, Pasay City"/>
+<entry key="8" type="xstring" value="Leblon"/>
+</config>
+<config key="attributeCounter">
+<entry key="array-size" type="xint" value="9"/>
+<entry key="0" type="xint" value="1"/>
+<entry key="1" type="xint" value="1"/>
+<entry key="2" type="xint" value="1"/>
+<entry key="3" type="xint" value="2"/>
+<entry key="4" type="xint" value="1"/>
+<entry key="5" type="xint" value="1"/>
+<entry key="6" type="xint" value="2"/>
+<entry key="7" type="xint" value="2"/>
+<entry key="8" type="xint" value="1"/>
+</config>
+</config>
+<config key="classValueData_1">
+<entry key="classValue" type="xstring" value="High"/>
+<entry key="noOfRows" type="xint" value="12"/>
+<entry key="MissingValCounter" type="xint" value="0"/>
+<config key="attributeValues">
+<entry key="array-size" type="xint" value="11"/>
+<entry key="0" type="xstring" value="Itaim Bibi"/>
+<entry key="1" type="xstring" value="Lago Sul"/>
+<entry key="2" type="xstring" value="Copacabana"/>
+<entry key="3" type="xstring" value="Ipanema"/>
+<entry key="4" type="xstring" value="Vila Mariana"/>
+<entry key="5" type="xstring" value="Dubuque"/>
+<entry key="6" type="xstring" value="Jardim Paulista"/>
+<entry key="7" type="xstring" value="UP Town Center, Diliman, Quezon City"/>
+<entry key="8" type="xstring" value="Consolaí_í£o"/>
+<entry key="9" type="xstring" value="Shopping MetríÇ Santa Cruz, Vila Mariana"/>
+<entry key="10" type="xstring" value="í&#129;guas Claras"/>
+</config>
+<config key="attributeCounter">
+<entry key="array-size" type="xint" value="11"/>
+<entry key="0" type="xint" value="1"/>
+<entry key="1" type="xint" value="1"/>
+<entry key="2" type="xint" value="1"/>
+<entry key="3" type="xint" value="1"/>
+<entry key="4" type="xint" value="1"/>
+<entry key="5" type="xint" value="1"/>
+<entry key="6" type="xint" value="1"/>
+<entry key="7" type="xint" value="1"/>
+<entry key="8" type="xint" value="1"/>
+<entry key="9" type="xint" value="1"/>
+<entry key="10" type="xint" value="2"/>
+</config>
+</config>
+<config key="classValueData_2">
+<entry key="classValue" type="xstring" value="Very Low"/>
+<entry key="noOfRows" type="xint" value="51"/>
+<entry key="MissingValCounter" type="xint" value="0"/>
+<config key="attributeValues">
+<entry key="array-size" type="xint" value="27"/>
+<entry key="0" type="xstring" value="Asa Sul"/>
+<entry key="1" type="xstring" value="Sylvester"/>
+<entry key="2" type="xstring" value="Coralville"/>
+<entry key="3" type="xstring" value="Clive"/>
+<entry key="4" type="xstring" value="Iowa City"/>
+<entry key="5" type="xstring" value="West Des Moines"/>
+<entry key="6" type="xstring" value="Dalton"/>
+<entry key="7" type="xstring" value="Dubuque"/>
+<entry key="8" type="xstring" value="Davenport"/>
+<entry key="9" type="xstring" value="Dicky Beach"/>
+<entry key="10" type="xstring" value="Dahlonega"/>
+<entry key="11" type="xstring" value="Albany"/>
+<entry key="12" type="xstring" value="LaFayette"/>
+<entry key="13" type="xstring" value="Rock Spring"/>
+<entry key="14" type="xstring" value="Augusta"/>
+<entry key="15" type="xstring" value="Fernley"/>
+<entry key="16" type="xstring" value="Calhoun"/>
+<entry key="17" type="xstring" value="Forrest"/>
+<entry key="18" type="xstring" value="Athens"/>
+<entry key="19" type="xstring" value="Bettendorf"/>
+<entry key="20" type="xstring" value="Downtown"/>
+<entry key="21" type="xstring" value="Meridian"/>
+<entry key="22" type="xstring" value="Grovetown"/>
+<entry key="23" type="xstring" value="Clarkesville"/>
+<entry key="24" type="xstring" value="Evans"/>
+<entry key="25" type="xstring" value="Boise"/>
+<entry key="26" type="xstring" value="Columbus"/>
+</config>
+<config key="attributeCounter">
+<entry key="array-size" type="xint" value="27"/>
+<entry key="0" type="xint" value="1"/>
+<entry key="1" type="xint" value="1"/>
+<entry key="2" type="xint" value="1"/>
+<entry key="3" type="xint" value="2"/>
+<entry key="4" type="xint" value="1"/>
+<entry key="5" type="xint" value="1"/>
+<entry key="6" type="xint" value="3"/>
+<entry key="7" type="xint" value="7"/>
+<entry key="8" type="xint" value="1"/>
+<entry key="9" type="xint" value="1"/>
+<entry key="10" type="xint" value="2"/>
+<entry key="11" type="xint" value="2"/>
+<entry key="12" type="xint" value="1"/>
+<entry key="13" type="xint" value="1"/>
+<entry key="14" type="xint" value="2"/>
+<entry key="15" type="xint" value="1"/>
+<entry key="16" type="xint" value="2"/>
+<entry key="17" type="xint" value="1"/>
+<entry key="18" type="xint" value="3"/>
+<entry key="19" type="xint" value="2"/>
+<entry key="20" type="xint" value="1"/>
+<entry key="21" type="xint" value="1"/>
+<entry key="22" type="xint" value="1"/>
+<entry key="23" type="xint" value="1"/>
+<entry key="24" type="xint" value="3"/>
+<entry key="25" type="xint" value="5"/>
+<entry key="26" type="xint" value="3"/>
+</config>
+</config>
+<config key="classValueData_3">
+<entry key="classValue" type="xstring" value="Low"/>
+<entry key="noOfRows" type="xint" value="12"/>
+<entry key="MissingValCounter" type="xint" value="0"/>
+<config key="attributeValues">
+<entry key="array-size" type="xint" value="11"/>
+<entry key="0" type="xstring" value="Augusta"/>
+<entry key="1" type="xstring" value="Shopping Morumbi, Santo Amaro"/>
+<entry key="2" type="xstring" value="West Des Moines"/>
+<entry key="3" type="xstring" value="Nampa"/>
+<entry key="4" type="xstring" value="Copacabana"/>
+<entry key="5" type="xstring" value="Sudoeste"/>
+<entry key="6" type="xstring" value="Hamilton"/>
+<entry key="7" type="xstring" value="Columbus"/>
+<entry key="8" type="xstring" value="Athens"/>
+<entry key="9" type="xstring" value="Albany"/>
+<entry key="10" type="xstring" value="Iowa City"/>
+</config>
+<config key="attributeCounter">
+<entry key="array-size" type="xint" value="11"/>
+<entry key="0" type="xint" value="1"/>
+<entry key="1" type="xint" value="1"/>
+<entry key="2" type="xint" value="1"/>
+<entry key="3" type="xint" value="1"/>
+<entry key="4" type="xint" value="1"/>
+<entry key="5" type="xint" value="1"/>
+<entry key="6" type="xint" value="1"/>
+<entry key="7" type="xint" value="2"/>
+<entry key="8" type="xint" value="1"/>
+<entry key="9" type="xint" value="1"/>
+<entry key="10" type="xint" value="1"/>
+</config>
+</config>
+</config>
+</config>
+<config key="SkippedAttributeData_4">
+<entry key="attributeName" type="xstring" value="Locality Verbose"/>
+<entry key="type" type="xstring" value="NominalModel"/>
+<entry key="skipMissingVals" type="xboolean" value="true"/>
+<entry key="numberOfMissingValues" type="xint" value="0"/>
+<entry key="invalidCause" type="xstring" value="Too many values"/>
+<config key="data">
+<entry key="maxNoOfAttrs" type="xint" value="50"/>
+<entry key="noOfClasses" type="xint" value="4"/>
+<config key="attributeValues">
+<entry key="array-size" type="xint" value="50"/>
+<entry key="0" type="xstring" value="SM Megamall, Ortigas, Mandaluyong City, Mandaluyong City"/>
+<entry key="1" type="xstring" value="SM by the Bay, Mall of Asia Complex, Pasay City, Pasay City"/>
+<entry key="2" type="xstring" value="Sofitel Philippine Plaza Manila, Pasay City, Pasay City"/>
+<entry key="3" type="xstring" value="UP Town Center, Diliman, Quezon City, Quezon City"/>
+<entry key="4" type="xstring" value="SM Aura Premier, Bonifacio Global City, Taguig City, Taguig City"/>
+<entry key="5" type="xstring" value="Asa Sul, Brasí_lia"/>
+<entry key="6" type="xstring" value="í&#129;guas Claras, Brasí_lia"/>
+<entry key="7" type="xstring" value="Lago Sul, Brasí_lia"/>
+<entry key="8" type="xstring" value="ParkShopping, Guaríç I, Brasí_lia"/>
+<entry key="9" type="xstring" value="Pontí£o Lago Sul, Lago Sul, Brasí_lia"/>
+<entry key="10" type="xstring" value="Sudoeste, Brasí_lia"/>
+<entry key="11" type="xstring" value="Copacabana, Rio de Janeiro"/>
+<entry key="12" type="xstring" value="Ipanema, Rio de Janeiro"/>
+<entry key="13" type="xstring" value="Leblon, Rio de Janeiro"/>
+<entry key="14" type="xstring" value="Leme, Rio de Janeiro"/>
+<entry key="15" type="xstring" value="Consolaí_í£o, Sí£o Paulo"/>
+<entry key="16" type="xstring" value="Hotel Unique, Jardim Paulista, Sí£o Paulo"/>
+<entry key="17" type="xstring" value="Itaim Bibi, Sí£o Paulo"/>
+<entry key="18" type="xstring" value="Jardim Paulista, Sí£o Paulo"/>
+<entry key="19" type="xstring" value="Shopping MetríÇ Santa Cruz, Vila Mariana, Sí£o Paulo"/>
+<entry key="20" type="xstring" value="Shopping Morumbi, Santo Amaro, Sí£o Paulo"/>
+<entry key="21" type="xstring" value="Vila Mariana, Sí£o Paulo"/>
+<entry key="22" type="xstring" value="Albany, Albany"/>
+<entry key="23" type="xstring" value="Sylvester, Albany"/>
+<entry key="24" type="xstring" value="Athens, Athens"/>
+<entry key="25" type="xstring" value="Augusta, Augusta"/>
+<entry key="26" type="xstring" value="Evans, Augusta"/>
+<entry key="27" type="xstring" value="Grovetown, Augusta"/>
+<entry key="28" type="xstring" value="Boise, Boise"/>
+<entry key="29" type="xstring" value="Meridian, Boise"/>
+<entry key="30" type="xstring" value="Nampa, Boise"/>
+<entry key="31" type="xstring" value="Coralville, Cedar Rapids/Iowa City"/>
+<entry key="32" type="xstring" value="Iowa City, Cedar Rapids/Iowa City"/>
+<entry key="33" type="xstring" value="Columbus, Columbus"/>
+<entry key="34" type="xstring" value="Hamilton, Columbus"/>
+<entry key="35" type="xstring" value="Calhoun, Dalton"/>
+<entry key="36" type="xstring" value="Dalton, Dalton"/>
+<entry key="37" type="xstring" value="LaFayette, Dalton"/>
+<entry key="38" type="xstring" value="Rock Spring, Dalton"/>
+<entry key="39" type="xstring" value="Bettendorf, Davenport"/>
+<entry key="40" type="xstring" value="Davenport, Davenport"/>
+<entry key="41" type="xstring" value="Clive, Des Moines"/>
+<entry key="42" type="xstring" value="Downtown, Des Moines"/>
+<entry key="43" type="xstring" value="West Des Moines, Des Moines"/>
+<entry key="44" type="xstring" value="Dicky Beach, Dicky Beach"/>
+<entry key="45" type="xstring" value="Dubuque, Dubuque"/>
+<entry key="46" type="xstring" value="Fernley, Fernley"/>
+<entry key="47" type="xstring" value="Forrest, Forrest"/>
+<entry key="48" type="xstring" value="Clarkesville, Gainesville"/>
+<entry key="49" type="xstring" value="Dahlonega, Gainesville"/>
+</config>
+<config key="classValueData_0">
+<entry key="classValue" type="xstring" value="Very High"/>
+<entry key="noOfRows" type="xint" value="12"/>
+<entry key="MissingValCounter" type="xint" value="0"/>
+<config key="attributeValues">
+<entry key="array-size" type="xint" value="9"/>
+<entry key="0" type="xstring" value="SM Megamall, Ortigas, Mandaluyong City, Mandaluyong City"/>
+<entry key="1" type="xstring" value="ParkShopping, Guaríç I, Brasí_lia"/>
+<entry key="2" type="xstring" value="Hotel Unique, Jardim Paulista, Sí£o Paulo"/>
+<entry key="3" type="xstring" value="Pontí£o Lago Sul, Lago Sul, Brasí_lia"/>
+<entry key="4" type="xstring" value="Leme, Rio de Janeiro"/>
+<entry key="5" type="xstring" value="SM by the Bay, Mall of Asia Complex, Pasay City, Pasay City"/>
+<entry key="6" type="xstring" value="Sofitel Philippine Plaza Manila, Pasay City, Pasay City"/>
+<entry key="7" type="xstring" value="Leblon, Rio de Janeiro"/>
+<entry key="8" type="xstring" value="SM Aura Premier, Bonifacio Global City, Taguig City, Taguig City"/>
+</config>
+<config key="attributeCounter">
+<entry key="array-size" type="xint" value="9"/>
+<entry key="0" type="xint" value="2"/>
+<entry key="1" type="xint" value="1"/>
+<entry key="2" type="xint" value="1"/>
+<entry key="3" type="xint" value="1"/>
+<entry key="4" type="xint" value="1"/>
+<entry key="5" type="xint" value="2"/>
+<entry key="6" type="xint" value="1"/>
+<entry key="7" type="xint" value="1"/>
+<entry key="8" type="xint" value="2"/>
+</config>
+</config>
+<config key="classValueData_1">
+<entry key="classValue" type="xstring" value="High"/>
+<entry key="noOfRows" type="xint" value="12"/>
+<entry key="MissingValCounter" type="xint" value="0"/>
+<config key="attributeValues">
+<entry key="array-size" type="xint" value="11"/>
+<entry key="0" type="xstring" value="Copacabana, Rio de Janeiro"/>
+<entry key="1" type="xstring" value="Dubuque, Dubuque"/>
+<entry key="2" type="xstring" value="UP Town Center, Diliman, Quezon City, Quezon City"/>
+<entry key="3" type="xstring" value="Lago Sul, Brasí_lia"/>
+<entry key="4" type="xstring" value="í&#129;guas Claras, Brasí_lia"/>
+<entry key="5" type="xstring" value="Consolaí_í£o, Sí£o Paulo"/>
+<entry key="6" type="xstring" value="Ipanema, Rio de Janeiro"/>
+<entry key="7" type="xstring" value="Jardim Paulista, Sí£o Paulo"/>
+<entry key="8" type="xstring" value="Shopping MetríÇ Santa Cruz, Vila Mariana, Sí£o Paulo"/>
+<entry key="9" type="xstring" value="Vila Mariana, Sí£o Paulo"/>
+<entry key="10" type="xstring" value="Itaim Bibi, Sí£o Paulo"/>
+</config>
+<config key="attributeCounter">
+<entry key="array-size" type="xint" value="11"/>
+<entry key="0" type="xint" value="1"/>
+<entry key="1" type="xint" value="1"/>
+<entry key="2" type="xint" value="1"/>
+<entry key="3" type="xint" value="1"/>
+<entry key="4" type="xint" value="2"/>
+<entry key="5" type="xint" value="1"/>
+<entry key="6" type="xint" value="1"/>
+<entry key="7" type="xint" value="1"/>
+<entry key="8" type="xint" value="1"/>
+<entry key="9" type="xint" value="1"/>
+<entry key="10" type="xint" value="1"/>
+</config>
+</config>
+<config key="classValueData_2">
+<entry key="classValue" type="xstring" value="Very Low"/>
+<entry key="noOfRows" type="xint" value="51"/>
+<entry key="MissingValCounter" type="xint" value="0"/>
+<config key="attributeValues">
+<entry key="array-size" type="xint" value="27"/>
+<entry key="0" type="xstring" value="Asa Sul, Brasí_lia"/>
+<entry key="1" type="xstring" value="Athens, Athens"/>
+<entry key="2" type="xstring" value="Sylvester, Albany"/>
+<entry key="3" type="xstring" value="Bettendorf, Davenport"/>
+<entry key="4" type="xstring" value="Downtown, Des Moines"/>
+<entry key="5" type="xstring" value="Columbus, Columbus"/>
+<entry key="6" type="xstring" value="Clive, Des Moines"/>
+<entry key="7" type="xstring" value="Forrest, Forrest"/>
+<entry key="8" type="xstring" value="Dalton, Dalton"/>
+<entry key="9" type="xstring" value="Augusta, Augusta"/>
+<entry key="10" type="xstring" value="Rock Spring, Dalton"/>
+<entry key="11" type="xstring" value="Dahlonega, Gainesville"/>
+<entry key="12" type="xstring" value="LaFayette, Dalton"/>
+<entry key="13" type="xstring" value="Davenport, Davenport"/>
+<entry key="14" type="xstring" value="Dicky Beach, Dicky Beach"/>
+<entry key="15" type="xstring" value="Calhoun, Dalton"/>
+<entry key="16" type="xstring" value="Dubuque, Dubuque"/>
+<entry key="17" type="xstring" value="Boise, Boise"/>
+<entry key="18" type="xstring" value="Grovetown, Augusta"/>
+<entry key="19" type="xstring" value="Meridian, Boise"/>
+<entry key="20" type="xstring" value="Coralville, Cedar Rapids/Iowa City"/>
+<entry key="21" type="xstring" value="West Des Moines, Des Moines"/>
+<entry key="22" type="xstring" value="Evans, Augusta"/>
+<entry key="23" type="xstring" value="Iowa City, Cedar Rapids/Iowa City"/>
+<entry key="24" type="xstring" value="Clarkesville, Gainesville"/>
+<entry key="25" type="xstring" value="Albany, Albany"/>
+<entry key="26" type="xstring" value="Fernley, Fernley"/>
+</config>
+<config key="attributeCounter">
+<entry key="array-size" type="xint" value="27"/>
+<entry key="0" type="xint" value="1"/>
+<entry key="1" type="xint" value="3"/>
+<entry key="2" type="xint" value="1"/>
+<entry key="3" type="xint" value="2"/>
+<entry key="4" type="xint" value="1"/>
+<entry key="5" type="xint" value="3"/>
+<entry key="6" type="xint" value="2"/>
+<entry key="7" type="xint" value="1"/>
+<entry key="8" type="xint" value="3"/>
+<entry key="9" type="xint" value="2"/>
+<entry key="10" type="xint" value="1"/>
+<entry key="11" type="xint" value="2"/>
+<entry key="12" type="xint" value="1"/>
+<entry key="13" type="xint" value="1"/>
+<entry key="14" type="xint" value="1"/>
+<entry key="15" type="xint" value="2"/>
+<entry key="16" type="xint" value="7"/>
+<entry key="17" type="xint" value="5"/>
+<entry key="18" type="xint" value="1"/>
+<entry key="19" type="xint" value="1"/>
+<entry key="20" type="xint" value="1"/>
+<entry key="21" type="xint" value="1"/>
+<entry key="22" type="xint" value="3"/>
+<entry key="23" type="xint" value="1"/>
+<entry key="24" type="xint" value="1"/>
+<entry key="25" type="xint" value="2"/>
+<entry key="26" type="xint" value="1"/>
+</config>
+</config>
+<config key="classValueData_3">
+<entry key="classValue" type="xstring" value="Low"/>
+<entry key="noOfRows" type="xint" value="12"/>
+<entry key="MissingValCounter" type="xint" value="0"/>
+<config key="attributeValues">
+<entry key="array-size" type="xint" value="11"/>
+<entry key="0" type="xstring" value="Copacabana, Rio de Janeiro"/>
+<entry key="1" type="xstring" value="Iowa City, Cedar Rapids/Iowa City"/>
+<entry key="2" type="xstring" value="Hamilton, Columbus"/>
+<entry key="3" type="xstring" value="Albany, Albany"/>
+<entry key="4" type="xstring" value="Athens, Athens"/>
+<entry key="5" type="xstring" value="Augusta, Augusta"/>
+<entry key="6" type="xstring" value="Sudoeste, Brasí_lia"/>
+<entry key="7" type="xstring" value="Shopping Morumbi, Santo Amaro, Sí£o Paulo"/>
+<entry key="8" type="xstring" value="Nampa, Boise"/>
+<entry key="9" type="xstring" value="Columbus, Columbus"/>
+<entry key="10" type="xstring" value="West Des Moines, Des Moines"/>
+</config>
+<config key="attributeCounter">
+<entry key="array-size" type="xint" value="11"/>
+<entry key="0" type="xint" value="1"/>
+<entry key="1" type="xint" value="1"/>
+<entry key="2" type="xint" value="1"/>
+<entry key="3" type="xint" value="1"/>
+<entry key="4" type="xint" value="1"/>
+<entry key="5" type="xint" value="1"/>
+<entry key="6" type="xint" value="1"/>
+<entry key="7" type="xint" value="1"/>
+<entry key="8" type="xint" value="1"/>
+<entry key="9" type="xint" value="2"/>
+<entry key="10" type="xint" value="1"/>
+</config>
+</config>
+</config>
+</config>
+<config key="SkippedAttributeData_5">
+<entry key="attributeName" type="xstring" value="City"/>
+<entry key="type" type="xstring" value="NominalModel"/>
+<entry key="skipMissingVals" type="xboolean" value="true"/>
+<entry key="numberOfMissingValues" type="xint" value="0"/>
+<entry key="invalidCause" type="xstring" value="Too many values"/>
+<config key="data">
+<entry key="maxNoOfAttrs" type="xint" value="50"/>
+<entry key="noOfClasses" type="xint" value="4"/>
+<config key="attributeValues">
+<entry key="array-size" type="xint" value="50"/>
+<entry key="0" type="xstring" value="Mandaluyong City"/>
+<entry key="1" type="xstring" value="Pasay City"/>
+<entry key="2" type="xstring" value="Quezon City"/>
+<entry key="3" type="xstring" value="Taguig City"/>
+<entry key="4" type="xstring" value="Brasí_lia"/>
+<entry key="5" type="xstring" value="Rio de Janeiro"/>
+<entry key="6" type="xstring" value="Sí£o Paulo"/>
+<entry key="7" type="xstring" value="Albany"/>
+<entry key="8" type="xstring" value="Athens"/>
+<entry key="9" type="xstring" value="Augusta"/>
+<entry key="10" type="xstring" value="Boise"/>
+<entry key="11" type="xstring" value="Cedar Rapids/Iowa City"/>
+<entry key="12" type="xstring" value="Columbus"/>
+<entry key="13" type="xstring" value="Dalton"/>
+<entry key="14" type="xstring" value="Davenport"/>
+<entry key="15" type="xstring" value="Des Moines"/>
+<entry key="16" type="xstring" value="Dicky Beach"/>
+<entry key="17" type="xstring" value="Dubuque"/>
+<entry key="18" type="xstring" value="Fernley"/>
+<entry key="19" type="xstring" value="Forrest"/>
+<entry key="20" type="xstring" value="Gainesville"/>
+<entry key="21" type="xstring" value="Lakes Entrance"/>
+<entry key="22" type="xstring" value="Lakeview"/>
+<entry key="23" type="xstring" value="Macedon"/>
+<entry key="24" type="xstring" value="Macon"/>
+<entry key="25" type="xstring" value="Monroe"/>
+<entry key="26" type="xstring" value="Orlando"/>
+<entry key="27" type="xstring" value="Paynesville"/>
+<entry key="28" type="xstring" value="Penola"/>
+<entry key="29" type="xstring" value="Pensacola"/>
+<entry key="30" type="xstring" value="Pocatello"/>
+<entry key="31" type="xstring" value="Potrero"/>
+<entry key="32" type="xstring" value="Rest of Hawaii"/>
+<entry key="33" type="xstring" value="Savannah"/>
+<entry key="34" type="xstring" value="Singapore"/>
+<entry key="35" type="xstring" value="Sioux City"/>
+<entry key="36" type="xstring" value="Tampa Bay"/>
+<entry key="37" type="xstring" value="Tanunda"/>
+<entry key="38" type="xstring" value="Valdosta"/>
+<entry key="39" type="xstring" value="Vernonia"/>
+<entry key="40" type="xstring" value="Victor Harbor"/>
+<entry key="41" type="xstring" value="Vineland Station"/>
+<entry key="42" type="xstring" value="Waterloo"/>
+<entry key="43" type="xstring" value="Weirton"/>
+<entry key="44" type="xstring" value="Abu Dhabi"/>
+<entry key="45" type="xstring" value="Dubai"/>
+<entry key="46" type="xstring" value="Sharjah"/>
+<entry key="47" type="xstring" value="Agra"/>
+<entry key="48" type="xstring" value="Ahmedabad"/>
+<entry key="49" type="xstring" value="Allahabad"/>
+</config>
+<config key="classValueData_0">
+<entry key="classValue" type="xstring" value="Very High"/>
+<entry key="noOfRows" type="xint" value="13"/>
+<entry key="MissingValCounter" type="xint" value="0"/>
+<config key="attributeValues">
+<entry key="array-size" type="xint" value="7"/>
+<entry key="0" type="xstring" value="Sí£o Paulo"/>
+<entry key="1" type="xstring" value="Pasay City"/>
+<entry key="2" type="xstring" value="Singapore"/>
+<entry key="3" type="xstring" value="Mandaluyong City"/>
+<entry key="4" type="xstring" value="Taguig City"/>
+<entry key="5" type="xstring" value="Rio de Janeiro"/>
+<entry key="6" type="xstring" value="Brasí_lia"/>
+</config>
+<config key="attributeCounter">
+<entry key="array-size" type="xint" value="7"/>
+<entry key="0" type="xint" value="1"/>
+<entry key="1" type="xint" value="3"/>
+<entry key="2" type="xint" value="1"/>
+<entry key="3" type="xint" value="2"/>
+<entry key="4" type="xint" value="2"/>
+<entry key="5" type="xint" value="2"/>
+<entry key="6" type="xint" value="2"/>
+</config>
+</config>
+<config key="classValueData_1">
+<entry key="classValue" type="xstring" value="High"/>
+<entry key="noOfRows" type="xint" value="37"/>
+<entry key="MissingValCounter" type="xint" value="0"/>
+<config key="attributeValues">
+<entry key="array-size" type="xint" value="17"/>
+<entry key="0" type="xstring" value="Sí£o Paulo"/>
+<entry key="1" type="xstring" value="Ahmedabad"/>
+<entry key="2" type="xstring" value="Allahabad"/>
+<entry key="3" type="xstring" value="Singapore"/>
+<entry key="4" type="xstring" value="Vineland Station"/>
+<entry key="5" type="xstring" value="Macon"/>
+<entry key="6" type="xstring" value="Rio de Janeiro"/>
+<entry key="7" type="xstring" value="Agra"/>
+<entry key="8" type="xstring" value="Brasí_lia"/>
+<entry key="9" type="xstring" value="Dubai"/>
+<entry key="10" type="xstring" value="Abu Dhabi"/>
+<entry key="11" type="xstring" value="Rest of Hawaii"/>
+<entry key="12" type="xstring" value="Orlando"/>
+<entry key="13" type="xstring" value="Paynesville"/>
+<entry key="14" type="xstring" value="Dubuque"/>
+<entry key="15" type="xstring" value="Tampa Bay"/>
+<entry key="16" type="xstring" value="Quezon City"/>
+</config>
+<config key="attributeCounter">
+<entry key="array-size" type="xint" value="17"/>
+<entry key="0" type="xint" value="5"/>
+<entry key="1" type="xint" value="6"/>
+<entry key="2" type="xint" value="1"/>
+<entry key="3" type="xint" value="1"/>
+<entry key="4" type="xint" value="1"/>
+<entry key="5" type="xint" value="1"/>
+<entry key="6" type="xint" value="2"/>
+<entry key="7" type="xint" value="3"/>
+<entry key="8" type="xint" value="3"/>
+<entry key="9" type="xint" value="2"/>
+<entry key="10" type="xint" value="4"/>
+<entry key="11" type="xint" value="2"/>
+<entry key="12" type="xint" value="1"/>
+<entry key="13" type="xint" value="1"/>
+<entry key="14" type="xint" value="1"/>
+<entry key="15" type="xint" value="2"/>
+<entry key="16" type="xint" value="1"/>
+</config>
+</config>
+<config key="classValueData_2">
+<entry key="classValue" type="xstring" value="Very Low"/>
+<entry key="noOfRows" type="xint" value="97"/>
+<entry key="MissingValCounter" type="xint" value="0"/>
+<config key="attributeValues">
+<entry key="array-size" type="xint" value="36"/>
+<entry key="0" type="xstring" value="Tanunda"/>
+<entry key="1" type="xstring" value="Sharjah"/>
+<entry key="2" type="xstring" value="Macedon"/>
+<entry key="3" type="xstring" value="Vernonia"/>
+<entry key="4" type="xstring" value="Weirton"/>
+<entry key="5" type="xstring" value="Brasí_lia"/>
+<entry key="6" type="xstring" value="Waterloo"/>
+<entry key="7" type="xstring" value="Penola"/>
+<entry key="8" type="xstring" value="Potrero"/>
+<entry key="9" type="xstring" value="Dalton"/>
+<entry key="10" type="xstring" value="Dubuque"/>
+<entry key="11" type="xstring" value="Davenport"/>
+<entry key="12" type="xstring" value="Tampa Bay"/>
+<entry key="13" type="xstring" value="Lakes Entrance"/>
+<entry key="14" type="xstring" value="Dicky Beach"/>
+<entry key="15" type="xstring" value="Albany"/>
+<entry key="16" type="xstring" value="Augusta"/>
+<entry key="17" type="xstring" value="Des Moines"/>
+<entry key="18" type="xstring" value="Fernley"/>
+<entry key="19" type="xstring" value="Forrest"/>
+<entry key="20" type="xstring" value="Macon"/>
+<entry key="21" type="xstring" value="Savannah"/>
+<entry key="22" type="xstring" value="Lakeview"/>
+<entry key="23" type="xstring" value="Pocatello"/>
+<entry key="24" type="xstring" value="Monroe"/>
+<entry key="25" type="xstring" value="Sioux City"/>
+<entry key="26" type="xstring" value="Athens"/>
+<entry key="27" type="xstring" value="Abu Dhabi"/>
+<entry key="28" type="xstring" value="Rest of Hawaii"/>
+<entry key="29" type="xstring" value="Gainesville"/>
+<entry key="30" type="xstring" value="Cedar Rapids/Iowa City"/>
+<entry key="31" type="xstring" value="Orlando"/>
+<entry key="32" type="xstring" value="Valdosta"/>
+<entry key="33" type="xstring" value="Boise"/>
+<entry key="34" type="xstring" value="Columbus"/>
+<entry key="35" type="xstring" value="Victor Harbor"/>
+</config>
+<config key="attributeCounter">
+<entry key="array-size" type="xint" value="36"/>
+<entry key="0" type="xint" value="1"/>
+<entry key="1" type="xint" value="3"/>
+<entry key="2" type="xint" value="1"/>
+<entry key="3" type="xint" value="1"/>
+<entry key="4" type="xint" value="1"/>
+<entry key="5" type="xint" value="1"/>
+<entry key="6" type="xint" value="7"/>
+<entry key="7" type="xint" value="1"/>
+<entry key="8" type="xint" value="1"/>
+<entry key="9" type="xint" value="7"/>
+<entry key="10" type="xint" value="7"/>
+<entry key="11" type="xint" value="3"/>
+<entry key="12" type="xint" value="1"/>
+<entry key="13" type="xint" value="1"/>
+<entry key="14" type="xint" value="1"/>
+<entry key="15" type="xint" value="3"/>
+<entry key="16" type="xint" value="6"/>
+<entry key="17" type="xint" value="4"/>
+<entry key="18" type="xint" value="1"/>
+<entry key="19" type="xint" value="1"/>
+<entry key="20" type="xint" value="7"/>
+<entry key="21" type="xint" value="3"/>
+<entry key="22" type="xint" value="1"/>
+<entry key="23" type="xint" value="2"/>
+<entry key="24" type="xint" value="1"/>
+<entry key="25" type="xint" value="3"/>
+<entry key="26" type="xint" value="3"/>
+<entry key="27" type="xint" value="1"/>
+<entry key="28" type="xint" value="1"/>
+<entry key="29" type="xint" value="7"/>
+<entry key="30" type="xint" value="2"/>
+<entry key="31" type="xint" value="2"/>
+<entry key="32" type="xint" value="2"/>
+<entry key="33" type="xint" value="6"/>
+<entry key="34" type="xint" value="3"/>
+<entry key="35" type="xint" value="1"/>
+</config>
+</config>
+<config key="classValueData_3">
+<entry key="classValue" type="xstring" value="Low"/>
+<entry key="noOfRows" type="xint" value="45"/>
+<entry key="MissingValCounter" type="xint" value="0"/>
+<config key="attributeValues">
+<entry key="array-size" type="xint" value="24"/>
+<entry key="0" type="xstring" value="Sí£o Paulo"/>
+<entry key="1" type="xstring" value="Augusta"/>
+<entry key="2" type="xstring" value="Des Moines"/>
+<entry key="3" type="xstring" value="Ahmedabad"/>
+<entry key="4" type="xstring" value="Pensacola"/>
+<entry key="5" type="xstring" value="Allahabad"/>
+<entry key="6" type="xstring" value="Sharjah"/>
+<entry key="7" type="xstring" value="Singapore"/>
+<entry key="8" type="xstring" value="Macon"/>
+<entry key="9" type="xstring" value="Rio de Janeiro"/>
+<entry key="10" type="xstring" value="Athens"/>
+<entry key="11" type="xstring" value="Brasí_lia"/>
+<entry key="12" type="xstring" value="Waterloo"/>
+<entry key="13" type="xstring" value="Dubai"/>
+<entry key="14" type="xstring" value="Abu Dhabi"/>
+<entry key="15" type="xstring" value="Rest of Hawaii"/>
+<entry key="16" type="xstring" value="Gainesville"/>
+<entry key="17" type="xstring" value="Cedar Rapids/Iowa City"/>
+<entry key="18" type="xstring" value="Orlando"/>
+<entry key="19" type="xstring" value="Valdosta"/>
+<entry key="20" type="xstring" value="Boise"/>
+<entry key="21" type="xstring" value="Columbus"/>
+<entry key="22" type="xstring" value="Tampa Bay"/>
+<entry key="23" type="xstring" value="Albany"/>
+</config>
+<config key="attributeCounter">
+<entry key="array-size" type="xint" value="24"/>
+<entry key="0" type="xint" value="1"/>
+<entry key="1" type="xint" value="1"/>
+<entry key="2" type="xint" value="1"/>
+<entry key="3" type="xint" value="1"/>
+<entry key="4" type="xint" value="1"/>
+<entry key="5" type="xint" value="5"/>
+<entry key="6" type="xint" value="1"/>
+<entry key="7" type="xint" value="2"/>
+<entry key="8" type="xint" value="1"/>
+<entry key="9" type="xint" value="1"/>
+<entry key="10" type="xint" value="1"/>
+<entry key="11" type="xint" value="1"/>
+<entry key="12" type="xint" value="1"/>
+<entry key="13" type="xint" value="2"/>
+<entry key="14" type="xint" value="1"/>
+<entry key="15" type="xint" value="4"/>
+<entry key="16" type="xint" value="1"/>
+<entry key="17" type="xint" value="1"/>
+<entry key="18" type="xint" value="6"/>
+<entry key="19" type="xint" value="3"/>
+<entry key="20" type="xint" value="1"/>
+<entry key="21" type="xint" value="3"/>
+<entry key="22" type="xint" value="4"/>
+<entry key="23" type="xint" value="1"/>
+</config>
+</config>
+</config>
+</config>
+</config>
+<config key="AttributeModelSection">
+<entry key="AttributeModelCounter" type="xint" value="18"/>
+<config key="AttributeModelData_0">
+<entry key="attributeName" type="xstring" value="Restaurant ID"/>
+<entry key="type" type="xstring" value="NumericalModel"/>
+<entry key="skipMissingVals" type="xboolean" value="true"/>
+<entry key="numberOfMissingValues" type="xint" value="0"/>
+<entry key="invalidCause" type="xstring" isnull="true" value=""/>
+<config key="data">
+<entry key="noOfClasses" type="xint" value="4"/>
+<config key="classValueData_0">
+<entry key="classValue" type="xstring" value="High"/>
+<entry key="MissingValCounter" type="xint" value="0"/>
+<entry key="noOfRows" type="xint" value="593"/>
+<entry key="sum" type="xdouble" value="4.328997763E9"/>
+<entry key="squareSum" type="xdouble" value="7.3532711867315792E16"/>
+</config>
+<config key="classValueData_1">
+<entry key="classValue" type="xstring" value="Very Low"/>
+<entry key="MissingValCounter" type="xint" value="0"/>
+<entry key="noOfRows" type="xint" value="935"/>
+<entry key="sum" type="xdouble" value="1.0447662091E10"/>
+<entry key="squareSum" type="xdouble" value="1.8762109292163008E17"/>
+</config>
+<config key="classValueData_2">
+<entry key="classValue" type="xstring" value="Low"/>
+<entry key="MissingValCounter" type="xint" value="0"/>
+<entry key="noOfRows" type="xint" value="1088"/>
+<entry key="sum" type="xdouble" value="1.0138308823E10"/>
+<entry key="squareSum" type="xdouble" value="1.78967750170495328E17"/>
+</config>
+<config key="classValueData_3">
+<entry key="classValue" type="xstring" value="Very High"/>
+<entry key="MissingValCounter" type="xint" value="0"/>
+<entry key="noOfRows" type="xint" value="241"/>
+<entry key="sum" type="xdouble" value="1.355448342E9"/>
+<entry key="squareSum" type="xdouble" value="2.2399049735509676E16"/>
+</config>
+</config>
+</config>
+<config key="AttributeModelData_1">
+<entry key="attributeName" type="xstring" value="Longitude"/>
+<entry key="type" type="xstring" value="NumericalModel"/>
+<entry key="skipMissingVals" type="xboolean" value="true"/>
+<entry key="numberOfMissingValues" type="xint" value="0"/>
+<entry key="invalidCause" type="xstring" isnull="true" value=""/>
+<config key="data">
+<entry key="noOfClasses" type="xint" value="4"/>
+<config key="classValueData_0">
+<entry key="classValue" type="xstring" value="High"/>
+<entry key="MissingValCounter" type="xint" value="0"/>
+<entry key="noOfRows" type="xint" value="593"/>
+<entry key="sum" type="xdouble" value="40974.892765036995"/>
+<entry key="squareSum" type="xdouble" value="3419208.4271438513"/>
+</config>
+<config key="classValueData_1">
+<entry key="classValue" type="xstring" value="Very Low"/>
+<entry key="MissingValCounter" type="xint" value="0"/>
+<entry key="noOfRows" type="xint" value="935"/>
+<entry key="sum" type="xdouble" value="52753.70626045005"/>
+<entry key="squareSum" type="xdouble" value="5533871.989621228"/>
+</config>
+<config key="classValueData_2">
+<entry key="classValue" type="xstring" value="Low"/>
+<entry key="MissingValCounter" type="xint" value="0"/>
+<entry key="noOfRows" type="xint" value="1088"/>
+<entry key="sum" type="xdouble" value="72367.51986452594"/>
+<entry key="squareSum" type="xdouble" value="6194708.684194018"/>
+</config>
+<config key="classValueData_3">
+<entry key="classValue" type="xstring" value="Very High"/>
+<entry key="MissingValCounter" type="xint" value="0"/>
+<entry key="noOfRows" type="xint" value="241"/>
+<entry key="sum" type="xdouble" value="18029.026538880007"/>
+<entry key="squareSum" type="xdouble" value="1506900.5216842256"/>
+</config>
+</config>
+</config>
+<config key="AttributeModelData_2">
+<entry key="attributeName" type="xstring" value="Latitude"/>
+<entry key="type" type="xstring" value="NumericalModel"/>
+<entry key="skipMissingVals" type="xboolean" value="true"/>
+<entry key="numberOfMissingValues" type="xint" value="0"/>
+<entry key="invalidCause" type="xstring" isnull="true" value=""/>
+<config key="data">
+<entry key="noOfClasses" type="xint" value="4"/>
+<config key="classValueData_0">
+<entry key="classValue" type="xstring" value="High"/>
+<entry key="MissingValCounter" type="xint" value="0"/>
+<entry key="noOfRows" type="xint" value="593"/>
+<entry key="sum" type="xdouble" value="15084.561039837987"/>
+<entry key="squareSum" type="xdouble" value="457408.7280597769"/>
+</config>
+<config key="classValueData_1">
+<entry key="classValue" type="xstring" value="Very Low"/>
+<entry key="MissingValCounter" type="xint" value="0"/>
+<entry key="noOfRows" type="xint" value="935"/>
+<entry key="sum" type="xdouble" value="24517.17792044004"/>
+<entry key="squareSum" type="xdouble" value="763513.5249960744"/>
+</config>
+<config key="classValueData_2">
+<entry key="classValue" type="xstring" value="Low"/>
+<entry key="MissingValCounter" type="xint" value="0"/>
+<entry key="noOfRows" type="xint" value="1088"/>
+<entry key="sum" type="xdouble" value="28353.71649065602"/>
+<entry key="squareSum" type="xdouble" value="863198.5225525267"/>
+</config>
+<config key="classValueData_3">
+<entry key="classValue" type="xstring" value="Very High"/>
+<entry key="MissingValCounter" type="xint" value="0"/>
+<entry key="noOfRows" type="xint" value="241"/>
+<entry key="sum" type="xdouble" value="5810.960617566002"/>
+<entry key="squareSum" type="xdouble" value="171619.9022664256"/>
+</config>
+</config>
+</config>
+<config key="AttributeModelData_3">
+<entry key="attributeName" type="xstring" value="Average Cost for two"/>
+<entry key="type" type="xstring" value="NumericalModel"/>
+<entry key="skipMissingVals" type="xboolean" value="true"/>
+<entry key="numberOfMissingValues" type="xint" value="0"/>
+<entry key="invalidCause" type="xstring" isnull="true" value=""/>
+<config key="data">
+<entry key="noOfClasses" type="xint" value="4"/>
+<config key="classValueData_0">
+<entry key="classValue" type="xstring" value="High"/>
+<entry key="MissingValCounter" type="xint" value="0"/>
+<entry key="noOfRows" type="xint" value="593"/>
+<entry key="sum" type="xdouble" value="1634665.0"/>
+<entry key="squareSum" type="xdouble" value="1.94603787125E11"/>
+</config>
+<config key="classValueData_1">
+<entry key="classValue" type="xstring" value="Very Low"/>
+<entry key="MissingValCounter" type="xint" value="0"/>
+<entry key="noOfRows" type="xint" value="935"/>
+<entry key="sum" type="xdouble" value="186004.0"/>
+<entry key="squareSum" type="xdouble" value="4.4834048E7"/>
+</config>
+<config key="classValueData_2">
+<entry key="classValue" type="xstring" value="Low"/>
+<entry key="MissingValCounter" type="xint" value="0"/>
+<entry key="noOfRows" type="xint" value="1088"/>
+<entry key="sum" type="xdouble" value="554120.0"/>
+<entry key="squareSum" type="xdouble" value="5.13467715E9"/>
+</config>
+<config key="classValueData_3">
+<entry key="classValue" type="xstring" value="Very High"/>
+<entry key="MissingValCounter" type="xint" value="0"/>
+<entry key="noOfRows" type="xint" value="241"/>
+<entry key="sum" type="xdouble" value="1060850.0"/>
+<entry key="squareSum" type="xdouble" value="1.538299731E11"/>
+</config>
+</config>
+</config>
+<config key="AttributeModelData_4">
+<entry key="attributeName" type="xstring" value="Has Table booking"/>
+<entry key="type" type="xstring" value="NominalModel"/>
+<entry key="skipMissingVals" type="xboolean" value="true"/>
+<entry key="numberOfMissingValues" type="xint" value="0"/>
+<entry key="invalidCause" type="xstring" isnull="true" value=""/>
+<config key="data">
+<entry key="maxNoOfAttrs" type="xint" value="50"/>
+<entry key="noOfClasses" type="xint" value="4"/>
+<config key="attributeValues">
+<entry key="array-size" type="xint" value="2"/>
+<entry key="0" type="xstring" value="No"/>
+<entry key="1" type="xstring" value="Yes"/>
+</config>
+<config key="classValueData_0">
+<entry key="classValue" type="xstring" value="Very High"/>
+<entry key="noOfRows" type="xint" value="241"/>
+<entry key="MissingValCounter" type="xint" value="0"/>
+<config key="attributeValues">
+<entry key="array-size" type="xint" value="2"/>
+<entry key="0" type="xstring" value="No"/>
+<entry key="1" type="xstring" value="Yes"/>
+</config>
+<config key="attributeCounter">
+<entry key="array-size" type="xint" value="2"/>
+<entry key="0" type="xint" value="82"/>
+<entry key="1" type="xint" value="159"/>
+</config>
+</config>
+<config key="classValueData_1">
+<entry key="classValue" type="xstring" value="High"/>
+<entry key="noOfRows" type="xint" value="593"/>
+<entry key="MissingValCounter" type="xint" value="0"/>
+<config key="attributeValues">
+<entry key="array-size" type="xint" value="2"/>
+<entry key="0" type="xstring" value="No"/>
+<entry key="1" type="xstring" value="Yes"/>
+</config>
+<config key="attributeCounter">
+<entry key="array-size" type="xint" value="2"/>
+<entry key="0" type="xint" value="422"/>
+<entry key="1" type="xint" value="171"/>
+</config>
+</config>
+<config key="classValueData_2">
+<entry key="classValue" type="xstring" value="Very Low"/>
+<entry key="noOfRows" type="xint" value="935"/>
+<entry key="MissingValCounter" type="xint" value="0"/>
+<config key="attributeValues">
+<entry key="array-size" type="xint" value="2"/>
+<entry key="0" type="xstring" value="No"/>
+<entry key="1" type="xstring" value="Yes"/>
+</config>
+<config key="attributeCounter">
+<entry key="array-size" type="xint" value="2"/>
+<entry key="0" type="xint" value="934"/>
+<entry key="1" type="xint" value="1"/>
+</config>
+</config>
+<config key="classValueData_3">
+<entry key="classValue" type="xstring" value="Low"/>
+<entry key="noOfRows" type="xint" value="1088"/>
+<entry key="MissingValCounter" type="xint" value="0"/>
+<config key="attributeValues">
+<entry key="array-size" type="xint" value="2"/>
+<entry key="0" type="xstring" value="No"/>
+<entry key="1" type="xstring" value="Yes"/>
+</config>
+<config key="attributeCounter">
+<entry key="array-size" type="xint" value="2"/>
+<entry key="0" type="xint" value="1084"/>
+<entry key="1" type="xint" value="4"/>
+</config>
+</config>
+</config>
+</config>
+<config key="AttributeModelData_5">
+<entry key="attributeName" type="xstring" value="Has Online delivery"/>
+<entry key="type" type="xstring" value="NominalModel"/>
+<entry key="skipMissingVals" type="xboolean" value="true"/>
+<entry key="numberOfMissingValues" type="xint" value="0"/>
+<entry key="invalidCause" type="xstring" isnull="true" value=""/>
+<config key="data">
+<entry key="maxNoOfAttrs" type="xint" value="50"/>
+<entry key="noOfClasses" type="xint" value="4"/>
+<config key="attributeValues">
+<entry key="array-size" type="xint" value="2"/>
+<entry key="0" type="xstring" value="No"/>
+<entry key="1" type="xstring" value="Yes"/>
+</config>
+<config key="classValueData_0">
+<entry key="classValue" type="xstring" value="Very High"/>
+<entry key="noOfRows" type="xint" value="241"/>
+<entry key="MissingValCounter" type="xint" value="0"/>
+<config key="attributeValues">
+<entry key="array-size" type="xint" value="2"/>
+<entry key="0" type="xstring" value="No"/>
+<entry key="1" type="xstring" value="Yes"/>
+</config>
+<config key="attributeCounter">
+<entry key="array-size" type="xint" value="2"/>
+<entry key="0" type="xint" value="193"/>
+<entry key="1" type="xint" value="48"/>
+</config>
+</config>
+<config key="classValueData_1">
+<entry key="classValue" type="xstring" value="High"/>
+<entry key="noOfRows" type="xint" value="593"/>
+<entry key="MissingValCounter" type="xint" value="0"/>
+<config key="attributeValues">
+<entry key="array-size" type="xint" value="2"/>
+<entry key="0" type="xstring" value="No"/>
+<entry key="1" type="xstring" value="Yes"/>
+</config>
+<config key="attributeCounter">
+<entry key="array-size" type="xint" value="2"/>
+<entry key="0" type="xint" value="331"/>
+<entry key="1" type="xint" value="262"/>
+</config>
+</config>
+<config key="classValueData_2">
+<entry key="classValue" type="xstring" value="Very Low"/>
+<entry key="noOfRows" type="xint" value="935"/>
+<entry key="MissingValCounter" type="xint" value="0"/>
+<config key="attributeValues">
+<entry key="array-size" type="xint" value="2"/>
+<entry key="0" type="xstring" value="No"/>
+<entry key="1" type="xstring" value="Yes"/>
+</config>
+<config key="attributeCounter">
+<entry key="array-size" type="xint" value="2"/>
+<entry key="0" type="xint" value="849"/>
+<entry key="1" type="xint" value="86"/>
+</config>
+</config>
+<config key="classValueData_3">
+<entry key="classValue" type="xstring" value="Low"/>
+<entry key="noOfRows" type="xint" value="1088"/>
+<entry key="MissingValCounter" type="xint" value="0"/>
+<config key="attributeValues">
+<entry key="array-size" type="xint" value="2"/>
+<entry key="0" type="xstring" value="No"/>
+<entry key="1" type="xstring" value="Yes"/>
+</config>
+<config key="attributeCounter">
+<entry key="array-size" type="xint" value="2"/>
+<entry key="0" type="xint" value="719"/>
+<entry key="1" type="xint" value="369"/>
+</config>
+</config>
+</config>
+</config>
+<config key="AttributeModelData_6">
+<entry key="attributeName" type="xstring" value="Is delivering now"/>
+<entry key="type" type="xstring" value="NominalModel"/>
+<entry key="skipMissingVals" type="xboolean" value="true"/>
+<entry key="numberOfMissingValues" type="xint" value="0"/>
+<entry key="invalidCause" type="xstring" isnull="true" value=""/>
+<config key="data">
+<entry key="maxNoOfAttrs" type="xint" value="50"/>
+<entry key="noOfClasses" type="xint" value="4"/>
+<config key="attributeValues">
+<entry key="array-size" type="xint" value="2"/>
+<entry key="0" type="xstring" value="No"/>
+<entry key="1" type="xstring" value="Yes"/>
+</config>
+<config key="classValueData_0">
+<entry key="classValue" type="xstring" value="Very High"/>
+<entry key="noOfRows" type="xint" value="241"/>
+<entry key="MissingValCounter" type="xint" value="0"/>
+<config key="attributeValues">
+<entry key="array-size" type="xint" value="1"/>
+<entry key="0" type="xstring" value="No"/>
+</config>
+<config key="attributeCounter">
+<entry key="array-size" type="xint" value="1"/>
+<entry key="0" type="xint" value="241"/>
+</config>
+</config>
+<config key="classValueData_1">
+<entry key="classValue" type="xstring" value="High"/>
+<entry key="noOfRows" type="xint" value="593"/>
+<entry key="MissingValCounter" type="xint" value="0"/>
+<config key="attributeValues">
+<entry key="array-size" type="xint" value="2"/>
+<entry key="0" type="xstring" value="No"/>
+<entry key="1" type="xstring" value="Yes"/>
+</config>
+<config key="attributeCounter">
+<entry key="array-size" type="xint" value="2"/>
+<entry key="0" type="xint" value="586"/>
+<entry key="1" type="xint" value="7"/>
+</config>
+</config>
+<config key="classValueData_2">
+<entry key="classValue" type="xstring" value="Very Low"/>
+<entry key="noOfRows" type="xint" value="935"/>
+<entry key="MissingValCounter" type="xint" value="0"/>
+<config key="attributeValues">
+<entry key="array-size" type="xint" value="1"/>
+<entry key="0" type="xstring" value="No"/>
+</config>
+<config key="attributeCounter">
+<entry key="array-size" type="xint" value="1"/>
+<entry key="0" type="xint" value="935"/>
+</config>
+</config>
+<config key="classValueData_3">
+<entry key="classValue" type="xstring" value="Low"/>
+<entry key="noOfRows" type="xint" value="1088"/>
+<entry key="MissingValCounter" type="xint" value="0"/>
+<config key="attributeValues">
+<entry key="array-size" type="xint" value="2"/>
+<entry key="0" type="xstring" value="No"/>
+<entry key="1" type="xstring" value="Yes"/>
+</config>
+<config key="attributeCounter">
+<entry key="array-size" type="xint" value="2"/>
+<entry key="0" type="xint" value="1084"/>
+<entry key="1" type="xint" value="4"/>
+</config>
+</config>
+</config>
+</config>
+<config key="AttributeModelData_7">
+<entry key="attributeName" type="xstring" value="Switch to order menu"/>
+<entry key="type" type="xstring" value="NominalModel"/>
+<entry key="skipMissingVals" type="xboolean" value="true"/>
+<entry key="numberOfMissingValues" type="xint" value="0"/>
+<entry key="invalidCause" type="xstring" isnull="true" value=""/>
+<config key="data">
+<entry key="maxNoOfAttrs" type="xint" value="50"/>
+<entry key="noOfClasses" type="xint" value="4"/>
+<config key="attributeValues">
+<entry key="array-size" type="xint" value="1"/>
+<entry key="0" type="xstring" value="No"/>
+</config>
+<config key="classValueData_0">
+<entry key="classValue" type="xstring" value="Very High"/>
+<entry key="noOfRows" type="xint" value="241"/>
+<entry key="MissingValCounter" type="xint" value="0"/>
+<config key="attributeValues">
+<entry key="array-size" type="xint" value="1"/>
+<entry key="0" type="xstring" value="No"/>
+</config>
+<config key="attributeCounter">
+<entry key="array-size" type="xint" value="1"/>
+<entry key="0" type="xint" value="241"/>
+</config>
+</config>
+<config key="classValueData_1">
+<entry key="classValue" type="xstring" value="High"/>
+<entry key="noOfRows" type="xint" value="593"/>
+<entry key="MissingValCounter" type="xint" value="0"/>
+<config key="attributeValues">
+<entry key="array-size" type="xint" value="1"/>
+<entry key="0" type="xstring" value="No"/>
+</config>
+<config key="attributeCounter">
+<entry key="array-size" type="xint" value="1"/>
+<entry key="0" type="xint" value="593"/>
+</config>
+</config>
+<config key="classValueData_2">
+<entry key="classValue" type="xstring" value="Very Low"/>
+<entry key="noOfRows" type="xint" value="935"/>
+<entry key="MissingValCounter" type="xint" value="0"/>
+<config key="attributeValues">
+<entry key="array-size" type="xint" value="1"/>
+<entry key="0" type="xstring" value="No"/>
+</config>
+<config key="attributeCounter">
+<entry key="array-size" type="xint" value="1"/>
+<entry key="0" type="xint" value="935"/>
+</config>
+</config>
+<config key="classValueData_3">
+<entry key="classValue" type="xstring" value="Low"/>
+<entry key="noOfRows" type="xint" value="1088"/>
+<entry key="MissingValCounter" type="xint" value="0"/>
+<config key="attributeValues">
+<entry key="array-size" type="xint" value="1"/>
+<entry key="0" type="xstring" value="No"/>
+</config>
+<config key="attributeCounter">
+<entry key="array-size" type="xint" value="1"/>
+<entry key="0" type="xint" value="1088"/>
+</config>
+</config>
+</config>
+</config>
+<config key="AttributeModelData_8">
+<entry key="attributeName" type="xstring" value="Price range"/>
+<entry key="type" type="xstring" value="NumericalModel"/>
+<entry key="skipMissingVals" type="xboolean" value="true"/>
+<entry key="numberOfMissingValues" type="xint" value="0"/>
+<entry key="invalidCause" type="xstring" isnull="true" value=""/>
+<config key="data">
+<entry key="noOfClasses" type="xint" value="4"/>
+<config key="classValueData_0">
+<entry key="classValue" type="xstring" value="High"/>
+<entry key="MissingValCounter" type="xint" value="0"/>
+<entry key="noOfRows" type="xint" value="593"/>
+<entry key="sum" type="xdouble" value="1506.0"/>
+<entry key="squareSum" type="xdouble" value="4050.0"/>
+</config>
+<config key="classValueData_1">
+<entry key="classValue" type="xstring" value="Very Low"/>
+<entry key="MissingValCounter" type="xint" value="0"/>
+<entry key="noOfRows" type="xint" value="935"/>
+<entry key="sum" type="xdouble" value="1014.0"/>
+<entry key="squareSum" type="xdouble" value="1196.0"/>
+</config>
+<config key="classValueData_2">
+<entry key="classValue" type="xstring" value="Low"/>
+<entry key="MissingValCounter" type="xint" value="0"/>
+<entry key="noOfRows" type="xint" value="1088"/>
+<entry key="sum" type="xdouble" value="1790.0"/>
+<entry key="squareSum" type="xdouble" value="3402.0"/>
+</config>
+<config key="classValueData_3">
+<entry key="classValue" type="xstring" value="Very High"/>
+<entry key="MissingValCounter" type="xint" value="0"/>
+<entry key="noOfRows" type="xint" value="241"/>
+<entry key="sum" type="xdouble" value="857.0"/>
+<entry key="squareSum" type="xdouble" value="3107.0"/>
+</config>
+</config>
+</config>
+<config key="AttributeModelData_9">
+<entry key="attributeName" type="xstring" value="Aggregate rating"/>
+<entry key="type" type="xstring" value="NumericalModel"/>
+<entry key="skipMissingVals" type="xboolean" value="true"/>
+<entry key="numberOfMissingValues" type="xint" value="0"/>
+<entry key="invalidCause" type="xstring" isnull="true" value=""/>
+<config key="data">
+<entry key="noOfClasses" type="xint" value="4"/>
+<config key="classValueData_0">
+<entry key="classValue" type="xstring" value="High"/>
+<entry key="MissingValCounter" type="xint" value="0"/>
+<entry key="noOfRows" type="xint" value="593"/>
+<entry key="sum" type="xdouble" value="2018.199999999999"/>
+<entry key="squareSum" type="xdouble" value="7390.14"/>
+</config>
+<config key="classValueData_1">
+<entry key="classValue" type="xstring" value="Very Low"/>
+<entry key="MissingValCounter" type="xint" value="0"/>
+<entry key="noOfRows" type="xint" value="935"/>
+<entry key="sum" type="xdouble" value="1813.9999999999995"/>
+<entry key="squareSum" type="xdouble" value="6224.519999999991"/>
+</config>
+<config key="classValueData_2">
+<entry key="classValue" type="xstring" value="Low"/>
+<entry key="MissingValCounter" type="xint" value="0"/>
+<entry key="noOfRows" type="xint" value="1088"/>
+<entry key="sum" type="xdouble" value="2874.1999999999957"/>
+<entry key="squareSum" type="xdouble" value="9752.219999999972"/>
+</config>
+<config key="classValueData_3">
+<entry key="classValue" type="xstring" value="Very High"/>
+<entry key="MissingValCounter" type="xint" value="0"/>
+<entry key="noOfRows" type="xint" value="241"/>
+<entry key="sum" type="xdouble" value="892.4999999999999"/>
+<entry key="squareSum" type="xdouble" value="3450.690000000001"/>
+</config>
+</config>
+</config>
+<config key="AttributeModelData_10">
+<entry key="attributeName" type="xstring" value="Rating color"/>
+<entry key="type" type="xstring" value="NominalModel"/>
+<entry key="skipMissingVals" type="xboolean" value="true"/>
+<entry key="numberOfMissingValues" type="xint" value="0"/>
+<entry key="invalidCause" type="xstring" isnull="true" value=""/>
+<config key="data">
+<entry key="maxNoOfAttrs" type="xint" value="50"/>
+<entry key="noOfClasses" type="xint" value="4"/>
+<config key="attributeValues">
+<entry key="array-size" type="xint" value="6"/>
+<entry key="0" type="xstring" value="Dark Green"/>
+<entry key="1" type="xstring" value="Green"/>
+<entry key="2" type="xstring" value="White"/>
+<entry key="3" type="xstring" value="Orange"/>
+<entry key="4" type="xstring" value="Yellow"/>
+<entry key="5" type="xstring" value="Red"/>
+</config>
+<config key="classValueData_0">
+<entry key="classValue" type="xstring" value="Very High"/>
+<entry key="noOfRows" type="xint" value="241"/>
+<entry key="MissingValCounter" type="xint" value="0"/>
+<config key="attributeValues">
+<entry key="array-size" type="xint" value="6"/>
+<entry key="0" type="xstring" value="Dark Green"/>
+<entry key="1" type="xstring" value="Red"/>
+<entry key="2" type="xstring" value="White"/>
+<entry key="3" type="xstring" value="Yellow"/>
+<entry key="4" type="xstring" value="Orange"/>
+<entry key="5" type="xstring" value="Green"/>
+</config>
+<config key="attributeCounter">
+<entry key="array-size" type="xint" value="6"/>
+<entry key="0" type="xint" value="21"/>
+<entry key="1" type="xint" value="2"/>
+<entry key="2" type="xint" value="6"/>
+<entry key="3" type="xint" value="99"/>
+<entry key="4" type="xint" value="45"/>
+<entry key="5" type="xint" value="68"/>
+</config>
+</config>
+<config key="classValueData_1">
+<entry key="classValue" type="xstring" value="High"/>
+<entry key="noOfRows" type="xint" value="593"/>
+<entry key="MissingValCounter" type="xint" value="0"/>
+<config key="attributeValues">
+<entry key="array-size" type="xint" value="6"/>
+<entry key="0" type="xstring" value="Dark Green"/>
+<entry key="1" type="xstring" value="Red"/>
+<entry key="2" type="xstring" value="White"/>
+<entry key="3" type="xstring" value="Yellow"/>
+<entry key="4" type="xstring" value="Orange"/>
+<entry key="5" type="xstring" value="Green"/>
+</config>
+<config key="attributeCounter">
+<entry key="array-size" type="xint" value="6"/>
+<entry key="0" type="xint" value="37"/>
+<entry key="1" type="xint" value="19"/>
+<entry key="2" type="xint" value="27"/>
+<entry key="3" type="xint" value="188"/>
+<entry key="4" type="xint" value="208"/>
+<entry key="5" type="xint" value="114"/>
+</config>
+</config>
+<config key="classValueData_2">
+<entry key="classValue" type="xstring" value="Very Low"/>
+<entry key="noOfRows" type="xint" value="935"/>
+<entry key="MissingValCounter" type="xint" value="0"/>
+<config key="attributeValues">
+<entry key="array-size" type="xint" value="6"/>
+<entry key="0" type="xstring" value="Dark Green"/>
+<entry key="1" type="xstring" value="Red"/>
+<entry key="2" type="xstring" value="White"/>
+<entry key="3" type="xstring" value="Yellow"/>
+<entry key="4" type="xstring" value="Orange"/>
+<entry key="5" type="xstring" value="Green"/>
+</config>
+<config key="attributeCounter">
+<entry key="array-size" type="xint" value="6"/>
+<entry key="0" type="xint" value="11"/>
+<entry key="1" type="xint" value="7"/>
+<entry key="2" type="xint" value="395"/>
+<entry key="3" type="xint" value="129"/>
+<entry key="4" type="xint" value="327"/>
+<entry key="5" type="xint" value="66"/>
+</config>
+</config>
+<config key="classValueData_3">
+<entry key="classValue" type="xstring" value="Low"/>
+<entry key="noOfRows" type="xint" value="1088"/>
+<entry key="MissingValCounter" type="xint" value="0"/>
+<config key="attributeValues">
+<entry key="array-size" type="xint" value="6"/>
+<entry key="0" type="xstring" value="Dark Green"/>
+<entry key="1" type="xstring" value="Red"/>
+<entry key="2" type="xstring" value="White"/>
+<entry key="3" type="xstring" value="Yellow"/>
+<entry key="4" type="xstring" value="Orange"/>
+<entry key="5" type="xstring" value="Green"/>
+</config>
+<config key="attributeCounter">
+<entry key="array-size" type="xint" value="6"/>
+<entry key="0" type="xint" value="22"/>
+<entry key="1" type="xint" value="35"/>
+<entry key="2" type="xint" value="219"/>
+<entry key="3" type="xint" value="228"/>
+<entry key="4" type="xint" value="506"/>
+<entry key="5" type="xint" value="78"/>
+</config>
+</config>
+</config>
+</config>
+<config key="AttributeModelData_11">
+<entry key="attributeName" type="xstring" value="Rating text"/>
+<entry key="type" type="xstring" value="NominalModel"/>
+<entry key="skipMissingVals" type="xboolean" value="true"/>
+<entry key="numberOfMissingValues" type="xint" value="0"/>
+<entry key="invalidCause" type="xstring" isnull="true" value=""/>
+<config key="data">
+<entry key="maxNoOfAttrs" type="xint" value="50"/>
+<entry key="noOfClasses" type="xint" value="4"/>
+<config key="attributeValues">
+<entry key="array-size" type="xint" value="6"/>
+<entry key="0" type="xstring" value="Excellent"/>
+<entry key="1" type="xstring" value="Very Good"/>
+<entry key="2" type="xstring" value="Not rated"/>
+<entry key="3" type="xstring" value="Average"/>
+<entry key="4" type="xstring" value="Good"/>
+<entry key="5" type="xstring" value="Poor"/>
+</config>
+<config key="classValueData_0">
+<entry key="classValue" type="xstring" value="Very High"/>
+<entry key="noOfRows" type="xint" value="241"/>
+<entry key="MissingValCounter" type="xint" value="0"/>
+<config key="attributeValues">
+<entry key="array-size" type="xint" value="6"/>
+<entry key="0" type="xstring" value="Excellent"/>
+<entry key="1" type="xstring" value="Poor"/>
+<entry key="2" type="xstring" value="Average"/>
+<entry key="3" type="xstring" value="Not rated"/>
+<entry key="4" type="xstring" value="Good"/>
+<entry key="5" type="xstring" value="Very Good"/>
+</config>
+<config key="attributeCounter">
+<entry key="array-size" type="xint" value="6"/>
+<entry key="0" type="xint" value="21"/>
+<entry key="1" type="xint" value="2"/>
+<entry key="2" type="xint" value="45"/>
+<entry key="3" type="xint" value="6"/>
+<entry key="4" type="xint" value="99"/>
+<entry key="5" type="xint" value="68"/>
+</config>
+</config>
+<config key="classValueData_1">
+<entry key="classValue" type="xstring" value="High"/>
+<entry key="noOfRows" type="xint" value="593"/>
+<entry key="MissingValCounter" type="xint" value="0"/>
+<config key="attributeValues">
+<entry key="array-size" type="xint" value="6"/>
+<entry key="0" type="xstring" value="Excellent"/>
+<entry key="1" type="xstring" value="Poor"/>
+<entry key="2" type="xstring" value="Average"/>
+<entry key="3" type="xstring" value="Not rated"/>
+<entry key="4" type="xstring" value="Good"/>
+<entry key="5" type="xstring" value="Very Good"/>
+</config>
+<config key="attributeCounter">
+<entry key="array-size" type="xint" value="6"/>
+<entry key="0" type="xint" value="37"/>
+<entry key="1" type="xint" value="19"/>
+<entry key="2" type="xint" value="208"/>
+<entry key="3" type="xint" value="27"/>
+<entry key="4" type="xint" value="188"/>
+<entry key="5" type="xint" value="114"/>
+</config>
+</config>
+<config key="classValueData_2">
+<entry key="classValue" type="xstring" value="Very Low"/>
+<entry key="noOfRows" type="xint" value="935"/>
+<entry key="MissingValCounter" type="xint" value="0"/>
+<config key="attributeValues">
+<entry key="array-size" type="xint" value="6"/>
+<entry key="0" type="xstring" value="Excellent"/>
+<entry key="1" type="xstring" value="Poor"/>
+<entry key="2" type="xstring" value="Average"/>
+<entry key="3" type="xstring" value="Not rated"/>
+<entry key="4" type="xstring" value="Good"/>
+<entry key="5" type="xstring" value="Very Good"/>
+</config>
+<config key="attributeCounter">
+<entry key="array-size" type="xint" value="6"/>
+<entry key="0" type="xint" value="11"/>
+<entry key="1" type="xint" value="7"/>
+<entry key="2" type="xint" value="327"/>
+<entry key="3" type="xint" value="395"/>
+<entry key="4" type="xint" value="129"/>
+<entry key="5" type="xint" value="66"/>
+</config>
+</config>
+<config key="classValueData_3">
+<entry key="classValue" type="xstring" value="Low"/>
+<entry key="noOfRows" type="xint" value="1088"/>
+<entry key="MissingValCounter" type="xint" value="0"/>
+<config key="attributeValues">
+<entry key="array-size" type="xint" value="6"/>
+<entry key="0" type="xstring" value="Excellent"/>
+<entry key="1" type="xstring" value="Poor"/>
+<entry key="2" type="xstring" value="Average"/>
+<entry key="3" type="xstring" value="Not rated"/>
+<entry key="4" type="xstring" value="Good"/>
+<entry key="5" type="xstring" value="Very Good"/>
+</config>
+<config key="attributeCounter">
+<entry key="array-size" type="xint" value="6"/>
+<entry key="0" type="xint" value="22"/>
+<entry key="1" type="xint" value="35"/>
+<entry key="2" type="xint" value="506"/>
+<entry key="3" type="xint" value="219"/>
+<entry key="4" type="xint" value="228"/>
+<entry key="5" type="xint" value="78"/>
+</config>
+</config>
+</config>
+</config>
+<config key="AttributeModelData_12">
+<entry key="attributeName" type="xstring" value="Votes"/>
+<entry key="type" type="xstring" value="NumericalModel"/>
+<entry key="skipMissingVals" type="xboolean" value="true"/>
+<entry key="numberOfMissingValues" type="xint" value="0"/>
+<entry key="invalidCause" type="xstring" isnull="true" value=""/>
+<config key="data">
+<entry key="noOfClasses" type="xint" value="4"/>
+<config key="classValueData_0">
+<entry key="classValue" type="xstring" value="High"/>
+<entry key="MissingValCounter" type="xint" value="0"/>
+<entry key="noOfRows" type="xint" value="593"/>
+<entry key="sum" type="xdouble" value="185637.0"/>
+<entry key="squareSum" type="xdouble" value="3.59504239E8"/>
+</config>
+<config key="classValueData_1">
+<entry key="classValue" type="xstring" value="Very Low"/>
+<entry key="MissingValCounter" type="xint" value="0"/>
+<entry key="noOfRows" type="xint" value="935"/>
+<entry key="sum" type="xdouble" value="52027.0"/>
+<entry key="squareSum" type="xdouble" value="2.5587795E7"/>
+</config>
+<config key="classValueData_2">
+<entry key="classValue" type="xstring" value="Low"/>
+<entry key="MissingValCounter" type="xint" value="0"/>
+<entry key="noOfRows" type="xint" value="1088"/>
+<entry key="sum" type="xdouble" value="104264.0"/>
+<entry key="squareSum" type="xdouble" value="5.4430162E7"/>
+</config>
+<config key="classValueData_3">
+<entry key="classValue" type="xstring" value="Very High"/>
+<entry key="MissingValCounter" type="xint" value="0"/>
+<entry key="noOfRows" type="xint" value="241"/>
+<entry key="sum" type="xdouble" value="137904.0"/>
+<entry key="squareSum" type="xdouble" value="3.95111086E8"/>
+</config>
+</config>
+</config>
+<config key="AttributeModelData_13">
+<entry key="attributeName" type="xstring" value="Country"/>
+<entry key="type" type="xstring" value="NominalModel"/>
+<entry key="skipMissingVals" type="xboolean" value="true"/>
+<entry key="numberOfMissingValues" type="xint" value="0"/>
+<entry key="invalidCause" type="xstring" isnull="true" value=""/>
+<config key="data">
+<entry key="maxNoOfAttrs" type="xint" value="50"/>
+<entry key="noOfClasses" type="xint" value="4"/>
+<config key="attributeValues">
+<entry key="array-size" type="xint" value="15"/>
+<entry key="0" type="xstring" value="Philipines"/>
+<entry key="1" type="xstring" value="Brazil"/>
+<entry key="2" type="xstring" value="United States"/>
+<entry key="3" type="xstring" value="Australia"/>
+<entry key="4" type="xstring" value="Singapore"/>
+<entry key="5" type="xstring" value="Canada"/>
+<entry key="6" type="xstring" value="UAE"/>
+<entry key="7" type="xstring" value="India"/>
+<entry key="8" type="xstring" value="Indonesia"/>
+<entry key="9" type="xstring" value="New Zealand"/>
+<entry key="10" type="xstring" value="United Kingdom"/>
+<entry key="11" type="xstring" value="Qatar"/>
+<entry key="12" type="xstring" value="South Africa"/>
+<entry key="13" type="xstring" value="Sri Lanka"/>
+<entry key="14" type="xstring" value="Turkey"/>
+</config>
+<config key="classValueData_0">
+<entry key="classValue" type="xstring" value="Very High"/>
+<entry key="noOfRows" type="xint" value="241"/>
+<entry key="MissingValCounter" type="xint" value="0"/>
+<config key="attributeValues">
+<entry key="array-size" type="xint" value="8"/>
+<entry key="0" type="xstring" value="Philipines"/>
+<entry key="1" type="xstring" value="New Zealand"/>
+<entry key="2" type="xstring" value="Singapore"/>
+<entry key="3" type="xstring" value="Sri Lanka"/>
+<entry key="4" type="xstring" value="Brazil"/>
+<entry key="5" type="xstring" value="United Kingdom"/>
+<entry key="6" type="xstring" value="India"/>
+<entry key="7" type="xstring" value="Indonesia"/>
+</config>
+<config key="attributeCounter">
+<entry key="array-size" type="xint" value="8"/>
+<entry key="0" type="xint" value="7"/>
+<entry key="1" type="xint" value="2"/>
+<entry key="2" type="xint" value="1"/>
+<entry key="3" type="xint" value="3"/>
+<entry key="4" type="xint" value="5"/>
+<entry key="5" type="xint" value="1"/>
+<entry key="6" type="xint" value="220"/>
+<entry key="7" type="xint" value="2"/>
+</config>
+</config>
+<config key="classValueData_1">
+<entry key="classValue" type="xstring" value="High"/>
+<entry key="noOfRows" type="xint" value="593"/>
+<entry key="MissingValCounter" type="xint" value="0"/>
+<config key="attributeValues">
+<entry key="array-size" type="xint" value="15"/>
+<entry key="0" type="xstring" value="Singapore"/>
+<entry key="1" type="xstring" value="United States"/>
+<entry key="2" type="xstring" value="Sri Lanka"/>
+<entry key="3" type="xstring" value="United Kingdom"/>
+<entry key="4" type="xstring" value="India"/>
+<entry key="5" type="xstring" value="Philipines"/>
+<entry key="6" type="xstring" value="New Zealand"/>
+<entry key="7" type="xstring" value="Canada"/>
+<entry key="8" type="xstring" value="Turkey"/>
+<entry key="9" type="xstring" value="Qatar"/>
+<entry key="10" type="xstring" value="Brazil"/>
+<entry key="11" type="xstring" value="UAE"/>
+<entry key="12" type="xstring" value="South Africa"/>
+<entry key="13" type="xstring" value="Australia"/>
+<entry key="14" type="xstring" value="Indonesia"/>
+</config>
+<config key="attributeCounter">
+<entry key="array-size" type="xint" value="15"/>
+<entry key="0" type="xint" value="1"/>
+<entry key="1" type="xint" value="7"/>
+<entry key="2" type="xint" value="1"/>
+<entry key="3" type="xint" value="11"/>
+<entry key="4" type="xint" value="540"/>
+<entry key="5" type="xint" value="1"/>
+<entry key="6" type="xint" value="1"/>
+<entry key="7" type="xint" value="1"/>
+<entry key="8" type="xint" value="1"/>
+<entry key="9" type="xint" value="3"/>
+<entry key="10" type="xint" value="10"/>
+<entry key="11" type="xint" value="6"/>
+<entry key="12" type="xint" value="2"/>
+<entry key="13" type="xint" value="1"/>
+<entry key="14" type="xint" value="7"/>
+</config>
+</config>
+<config key="classValueData_2">
+<entry key="classValue" type="xstring" value="Very Low"/>
+<entry key="noOfRows" type="xint" value="935"/>
+<entry key="MissingValCounter" type="xint" value="0"/>
+<config key="attributeValues">
+<entry key="array-size" type="xint" value="10"/>
+<entry key="0" type="xstring" value="New Zealand"/>
+<entry key="1" type="xstring" value="Turkey"/>
+<entry key="2" type="xstring" value="United States"/>
+<entry key="3" type="xstring" value="Qatar"/>
+<entry key="4" type="xstring" value="Brazil"/>
+<entry key="5" type="xstring" value="UAE"/>
+<entry key="6" type="xstring" value="United Kingdom"/>
+<entry key="7" type="xstring" value="South Africa"/>
+<entry key="8" type="xstring" value="Australia"/>
+<entry key="9" type="xstring" value="India"/>
+</config>
+<config key="attributeCounter">
+<entry key="array-size" type="xint" value="10"/>
+<entry key="0" type="xint" value="4"/>
+<entry key="1" type="xint" value="1"/>
+<entry key="2" type="xint" value="85"/>
+<entry key="3" type="xint" value="4"/>
+<entry key="4" type="xint" value="1"/>
+<entry key="5" type="xint" value="4"/>
+<entry key="6" type="xint" value="2"/>
+<entry key="7" type="xint" value="3"/>
+<entry key="8" type="xint" value="7"/>
+<entry key="9" type="xint" value="824"/>
+</config>
+</config>
+<config key="classValueData_3">
+<entry key="classValue" type="xstring" value="Low"/>
+<entry key="noOfRows" type="xint" value="1088"/>
+<entry key="MissingValCounter" type="xint" value="0"/>
+<config key="attributeValues">
+<entry key="array-size" type="xint" value="12"/>
+<entry key="0" type="xstring" value="New Zealand"/>
+<entry key="1" type="xstring" value="Singapore"/>
+<entry key="2" type="xstring" value="Turkey"/>
+<entry key="3" type="xstring" value="United States"/>
+<entry key="4" type="xstring" value="Sri Lanka"/>
+<entry key="5" type="xstring" value="Qatar"/>
+<entry key="6" type="xstring" value="Brazil"/>
+<entry key="7" type="xstring" value="UAE"/>
+<entry key="8" type="xstring" value="United Kingdom"/>
+<entry key="9" type="xstring" value="South Africa"/>
+<entry key="10" type="xstring" value="India"/>
+<entry key="11" type="xstring" value="Indonesia"/>
+</config>
+<config key="attributeCounter">
+<entry key="array-size" type="xint" value="12"/>
+<entry key="0" type="xint" value="5"/>
+<entry key="1" type="xint" value="2"/>
+<entry key="2" type="xint" value="6"/>
+<entry key="3" type="xint" value="30"/>
+<entry key="4" type="xint" value="2"/>
+<entry key="5" type="xint" value="2"/>
+<entry key="6" type="xint" value="3"/>
+<entry key="7" type="xint" value="4"/>
+<entry key="8" type="xint" value="16"/>
+<entry key="9" type="xint" value="10"/>
+<entry key="10" type="xint" value="1007"/>
+<entry key="11" type="xint" value="1"/>
+</config>
+</config>
+</config>
+</config>
+<config key="AttributeModelData_14">
+<entry key="attributeName" type="xstring" value="Currency"/>
+<entry key="type" type="xstring" value="NominalModel"/>
+<entry key="skipMissingVals" type="xboolean" value="true"/>
+<entry key="numberOfMissingValues" type="xint" value="0"/>
+<entry key="invalidCause" type="xstring" isnull="true" value=""/>
+<config key="data">
+<entry key="maxNoOfAttrs" type="xint" value="50"/>
+<entry key="noOfClasses" type="xint" value="4"/>
+<config key="attributeValues">
+<entry key="array-size" type="xint" value="12"/>
+<entry key="0" type="xstring" value="Philippine peso(PHP)"/>
+<entry key="1" type="xstring" value="Brazilian Real(R$)"/>
+<entry key="2" type="xstring" value="Dollar($)"/>
+<entry key="3" type="xstring" value="Emirati Diram(AED)"/>
+<entry key="4" type="xstring" value="Indian Rupees(Rs.)"/>
+<entry key="5" type="xstring" value="Indonesian Rupiah(IDR)"/>
+<entry key="6" type="xstring" value="NewZealand($)"/>
+<entry key="7" type="xstring" value="Pounds(&#140;£)"/>
+<entry key="8" type="xstring" value="Qatari Rial(QR)"/>
+<entry key="9" type="xstring" value="Rand(R)"/>
+<entry key="10" type="xstring" value="Sri Lankan Rupee(LKR)"/>
+<entry key="11" type="xstring" value="Turkish Lira(TL)"/>
+</config>
+<config key="classValueData_0">
+<entry key="classValue" type="xstring" value="Very High"/>
+<entry key="noOfRows" type="xint" value="241"/>
+<entry key="MissingValCounter" type="xint" value="0"/>
+<config key="attributeValues">
+<entry key="array-size" type="xint" value="8"/>
+<entry key="0" type="xstring" value="Sri Lankan Rupee(LKR)"/>
+<entry key="1" type="xstring" value="Pounds(&#140;£)"/>
+<entry key="2" type="xstring" value="Brazilian Real(R$)"/>
+<entry key="3" type="xstring" value="Indian Rupees(Rs.)"/>
+<entry key="4" type="xstring" value="NewZealand($)"/>
+<entry key="5" type="xstring" value="Dollar($)"/>
+<entry key="6" type="xstring" value="Philippine peso(PHP)"/>
+<entry key="7" type="xstring" value="Indonesian Rupiah(IDR)"/>
+</config>
+<config key="attributeCounter">
+<entry key="array-size" type="xint" value="8"/>
+<entry key="0" type="xint" value="3"/>
+<entry key="1" type="xint" value="1"/>
+<entry key="2" type="xint" value="5"/>
+<entry key="3" type="xint" value="220"/>
+<entry key="4" type="xint" value="2"/>
+<entry key="5" type="xint" value="1"/>
+<entry key="6" type="xint" value="7"/>
+<entry key="7" type="xint" value="2"/>
+</config>
+</config>
+<config key="classValueData_1">
+<entry key="classValue" type="xstring" value="High"/>
+<entry key="noOfRows" type="xint" value="593"/>
+<entry key="MissingValCounter" type="xint" value="0"/>
+<config key="attributeValues">
+<entry key="array-size" type="xint" value="12"/>
+<entry key="0" type="xstring" value="Sri Lankan Rupee(LKR)"/>
+<entry key="1" type="xstring" value="Emirati Diram(AED)"/>
+<entry key="2" type="xstring" value="Pounds(&#140;£)"/>
+<entry key="3" type="xstring" value="Turkish Lira(TL)"/>
+<entry key="4" type="xstring" value="Brazilian Real(R$)"/>
+<entry key="5" type="xstring" value="Indian Rupees(Rs.)"/>
+<entry key="6" type="xstring" value="NewZealand($)"/>
+<entry key="7" type="xstring" value="Dollar($)"/>
+<entry key="8" type="xstring" value="Rand(R)"/>
+<entry key="9" type="xstring" value="Philippine peso(PHP)"/>
+<entry key="10" type="xstring" value="Qatari Rial(QR)"/>
+<entry key="11" type="xstring" value="Indonesian Rupiah(IDR)"/>
+</config>
+<config key="attributeCounter">
+<entry key="array-size" type="xint" value="12"/>
+<entry key="0" type="xint" value="1"/>
+<entry key="1" type="xint" value="6"/>
+<entry key="2" type="xint" value="11"/>
+<entry key="3" type="xint" value="1"/>
+<entry key="4" type="xint" value="10"/>
+<entry key="5" type="xint" value="540"/>
+<entry key="6" type="xint" value="1"/>
+<entry key="7" type="xint" value="10"/>
+<entry key="8" type="xint" value="2"/>
+<entry key="9" type="xint" value="1"/>
+<entry key="10" type="xint" value="3"/>
+<entry key="11" type="xint" value="7"/>
+</config>
+</config>
+<config key="classValueData_2">
+<entry key="classValue" type="xstring" value="Very Low"/>
+<entry key="noOfRows" type="xint" value="935"/>
+<entry key="MissingValCounter" type="xint" value="0"/>
+<config key="attributeValues">
+<entry key="array-size" type="xint" value="9"/>
+<entry key="0" type="xstring" value="Emirati Diram(AED)"/>
+<entry key="1" type="xstring" value="Pounds(&#140;£)"/>
+<entry key="2" type="xstring" value="Turkish Lira(TL)"/>
+<entry key="3" type="xstring" value="Brazilian Real(R$)"/>
+<entry key="4" type="xstring" value="Indian Rupees(Rs.)"/>
+<entry key="5" type="xstring" value="NewZealand($)"/>
+<entry key="6" type="xstring" value="Dollar($)"/>
+<entry key="7" type="xstring" value="Rand(R)"/>
+<entry key="8" type="xstring" value="Qatari Rial(QR)"/>
+</config>
+<config key="attributeCounter">
+<entry key="array-size" type="xint" value="9"/>
+<entry key="0" type="xint" value="4"/>
+<entry key="1" type="xint" value="2"/>
+<entry key="2" type="xint" value="1"/>
+<entry key="3" type="xint" value="1"/>
+<entry key="4" type="xint" value="824"/>
+<entry key="5" type="xint" value="4"/>
+<entry key="6" type="xint" value="92"/>
+<entry key="7" type="xint" value="3"/>
+<entry key="8" type="xint" value="4"/>
+</config>
+</config>
+<config key="classValueData_3">
+<entry key="classValue" type="xstring" value="Low"/>
+<entry key="noOfRows" type="xint" value="1088"/>
+<entry key="MissingValCounter" type="xint" value="0"/>
+<config key="attributeValues">
+<entry key="array-size" type="xint" value="11"/>
+<entry key="0" type="xstring" value="Sri Lankan Rupee(LKR)"/>
+<entry key="1" type="xstring" value="Emirati Diram(AED)"/>
+<entry key="2" type="xstring" value="Pounds(&#140;£)"/>
+<entry key="3" type="xstring" value="Turkish Lira(TL)"/>
+<entry key="4" type="xstring" value="Brazilian Real(R$)"/>
+<entry key="5" type="xstring" value="Indian Rupees(Rs.)"/>
+<entry key="6" type="xstring" value="NewZealand($)"/>
+<entry key="7" type="xstring" value="Dollar($)"/>
+<entry key="8" type="xstring" value="Rand(R)"/>
+<entry key="9" type="xstring" value="Qatari Rial(QR)"/>
+<entry key="10" type="xstring" value="Indonesian Rupiah(IDR)"/>
+</config>
+<config key="attributeCounter">
+<entry key="array-size" type="xint" value="11"/>
+<entry key="0" type="xint" value="2"/>
+<entry key="1" type="xint" value="4"/>
+<entry key="2" type="xint" value="16"/>
+<entry key="3" type="xint" value="6"/>
+<entry key="4" type="xint" value="3"/>
+<entry key="5" type="xint" value="1007"/>
+<entry key="6" type="xint" value="5"/>
+<entry key="7" type="xint" value="32"/>
+<entry key="8" type="xint" value="10"/>
+<entry key="9" type="xint" value="2"/>
+<entry key="10" type="xint" value="1"/>
+</config>
+</config>
+</config>
+</config>
+<config key="AttributeModelData_15">
+<entry key="attributeName" type="xstring" value="Average Cost for two euro"/>
+<entry key="type" type="xstring" value="NumericalModel"/>
+<entry key="skipMissingVals" type="xboolean" value="true"/>
+<entry key="numberOfMissingValues" type="xint" value="0"/>
+<entry key="invalidCause" type="xstring" isnull="true" value=""/>
+<config key="data">
+<entry key="noOfClasses" type="xint" value="4"/>
+<config key="classValueData_0">
+<entry key="classValue" type="xstring" value="High"/>
+<entry key="MissingValCounter" type="xint" value="0"/>
+<entry key="noOfRows" type="xint" value="593"/>
+<entry key="sum" type="xdouble" value="8508.71774443601"/>
+<entry key="squareSum" type="xdouble" value="252782.639452668"/>
+</config>
+<config key="classValueData_1">
+<entry key="classValue" type="xstring" value="Very Low"/>
+<entry key="MissingValCounter" type="xint" value="0"/>
+<entry key="noOfRows" type="xint" value="935"/>
+<entry key="sum" type="xdouble" value="3945.5551512039824"/>
+<entry key="squareSum" type="xdouble" value="38537.1236559368"/>
+</config>
+<config key="classValueData_2">
+<entry key="classValue" type="xstring" value="Low"/>
+<entry key="MissingValCounter" type="xint" value="0"/>
+<entry key="noOfRows" type="xint" value="1088"/>
+<entry key="sum" type="xdouble" value="8078.4772310889775"/>
+<entry key="squareSum" type="xdouble" value="112988.07778451647"/>
+</config>
+<config key="classValueData_3">
+<entry key="classValue" type="xstring" value="Very High"/>
+<entry key="MissingValCounter" type="xint" value="0"/>
+<entry key="noOfRows" type="xint" value="241"/>
+<entry key="sum" type="xdouble" value="7158.799203319991"/>
+<entry key="squareSum" type="xdouble" value="433874.9827728412"/>
+</config>
+</config>
+</config>
+<config key="AttributeModelData_16">
+<entry key="attributeName" type="xstring" value="Compared Price and Salary"/>
+<entry key="type" type="xstring" value="NumericalModel"/>
+<entry key="skipMissingVals" type="xboolean" value="true"/>
+<entry key="numberOfMissingValues" type="xint" value="0"/>
+<entry key="invalidCause" type="xstring" isnull="true" value=""/>
+<config key="data">
+<entry key="noOfClasses" type="xint" value="4"/>
+<config key="classValueData_0">
+<entry key="classValue" type="xstring" value="High"/>
+<entry key="MissingValCounter" type="xint" value="0"/>
+<entry key="noOfRows" type="xint" value="593"/>
+<entry key="sum" type="xdouble" value="16.71733887211424"/>
+<entry key="squareSum" type="xdouble" value="0.5014369369665412"/>
+</config>
+<config key="classValueData_1">
+<entry key="classValue" type="xstring" value="Very Low"/>
+<entry key="MissingValCounter" type="xint" value="0"/>
+<entry key="noOfRows" type="xint" value="935"/>
+<entry key="sum" type="xdouble" value="6.31379135938221"/>
+<entry key="squareSum" type="xdouble" value="0.04719747830865323"/>
+</config>
+<config key="classValueData_2">
+<entry key="classValue" type="xstring" value="Low"/>
+<entry key="MissingValCounter" type="xint" value="0"/>
+<entry key="noOfRows" type="xint" value="1088"/>
+<entry key="sum" type="xdouble" value="15.837546551317303"/>
+<entry key="squareSum" type="xdouble" value="0.2377236049305803"/>
+</config>
+<config key="classValueData_3">
+<entry key="classValue" type="xstring" value="Very High"/>
+<entry key="MissingValCounter" type="xint" value="0"/>
+<entry key="noOfRows" type="xint" value="241"/>
+<entry key="sum" type="xdouble" value="16.860740930433114"/>
+<entry key="squareSum" type="xdouble" value="1.4541764656444258"/>
+</config>
+</config>
+</config>
+<config key="AttributeModelData_17">
+<entry key="attributeName" type="xstring" value="Categorical Price"/>
+<entry key="type" type="xstring" value="ClassModel"/>
+<entry key="skipMissingVals" type="xboolean" value="true"/>
+<entry key="numberOfMissingValues" type="xint" value="0"/>
+<entry key="invalidCause" type="xstring" isnull="true" value=""/>
+<config key="data">
+<entry key="totalNoOfRecords" type="xint" value="2857"/>
+<entry key="maxNoOfClassValues" type="xint" value="50"/>
+<config key="classValues">
+<entry key="array-size" type="xint" value="4"/>
+<entry key="0" type="xstring" value="Very High"/>
+<entry key="1" type="xstring" value="High"/>
+<entry key="2" type="xstring" value="Very Low"/>
+<entry key="3" type="xstring" value="Low"/>
+</config>
+<config key="classRecordCounter">
+<entry key="array-size" type="xint" value="4"/>
+<entry key="0" type="xint" value="241"/>
+<entry key="1" type="xint" value="593"/>
+<entry key="2" type="xint" value="935"/>
+<entry key="3" type="xint" value="1088"/>
+</config>
+</config>
+</config>
+</config>
+</config>
