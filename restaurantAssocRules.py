@@ -31,23 +31,18 @@ df2 = pd.DataFrame()
 for ind in range(len(allCuisines)):
     df2[allCuisines[ind]] = pd.Series(allCuisinesData[ind], index = df.index)
 
-#allCountries = []
-#for i, row in df.iterrows():
-    #country = row["Country"].strip()
-    #if country not in allCountries:
-        #allCountries.append(country)
+allRatingTexts = ["Average", "Not rated", "Good", "Very Good", "Excellent", "Poor"]
+ratingsData = [[] for i in range(len(allRatingTexts))]
 
-#countriesData = [[] for i in range(len(allCountries))]
+for i, row in df.iterrows():
+    for rating in allRatingTexts:
+        if rating == row["Rating text"]:
+            ratingsData[allRatingTexts.index(rating)].append(1)
+        else:
+            ratingsData[allRatingTexts.index(rating)].append(0)
 
-#for i, row in df.iterrows():
-    #for country in allCountries:
-        #if country == row["Country"]:
-            #countriesData[allCountries.index(country)].append(1)
-        #else:
-            #countriesData[allCountries.index(country)].append(0)
-
-#for i in range(len(countriesData)):
-    #df2[allCountries[i]] = pd.Series(countriesData[i], index = df2.index)
+for i in range(len(ratingsData)):
+    df2[allRatingTexts[i]] = pd.Series(ratingsData[i], index = df2.index)
 
     
 #print (df2)
@@ -56,10 +51,4 @@ frequent_itemsets = apriori(df2, min_support=0.02, use_colnames=True)
 print(frequent_itemsets)
 rules = association_rules(frequent_itemsets, metric="confidence", min_threshold=0.3)
 print(rules)
-    
-#with open("ColumnPerCuisine.csv", "w") as csvFile:
-    #csv = df.to_csv(index = False)
-    #csvFile.write(csv)
-    
-    
     
