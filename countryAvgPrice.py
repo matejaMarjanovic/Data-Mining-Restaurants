@@ -30,11 +30,29 @@ averagePrice = list(sumCountryPrices.values())
 meanPercent = list(sumCountryPercentMean.values())
 medianPercent = list(sumCountryPercentMedian.values())
 
-plt.bar(range(len(countries)), averagePrice, tick_label = countries, color = "red")
+
+x = range(len(countries))
+plt.xticks(x,  countries)
+locs, labels = plt.xticks()
+plt.setp(labels, rotation=80)
+plt.bar(x, averagePrice)
 plt.show()
 
-plt.bar(range(len(countries)), meanPercent, tick_label = countries, color = "green")
+
+x = range(len(countries))
+plt.xticks(x,  countries)
+locs, labels = plt.xticks()
+plt.setp(labels, rotation=80)
+plt.bar(x, meanPercent)
 plt.show()
 
-plt.bar(range(len(countries)), medianPercent, tick_label = countries, color = "orange")
+x = range(len(countries))
+plt.xticks(x,  countries)
+locs, labels = plt.xticks()
+plt.setp(labels, rotation=80)
+plt.bar(x, medianPercent)
 plt.show()
+
+plt.close()
+
+
