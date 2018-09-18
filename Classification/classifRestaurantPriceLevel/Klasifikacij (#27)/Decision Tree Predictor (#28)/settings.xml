@@ -11,21 +11,21 @@
 <entry key="EnabledStatus" type="xboolean" value="true"/>
 </config>
 <entry key="UseGainRatio" type="xint" value="10000"/>
-<config key="change prediction_Internals">
-<entry key="SettingsModelID" type="xstring" value="SMID_boolean"/>
-<entry key="EnabledStatus" type="xboolean" value="true"/>
-</config>
-<entry key="change prediction" type="xboolean" value="false"/>
-<config key="prediction column name_Internals">
-<entry key="SettingsModelID" type="xstring" value="SMID_string"/>
-<entry key="EnabledStatus" type="xboolean" value="false"/>
-</config>
-<entry key="prediction column name" type="xstring" value="Prediction (# Votes)"/>
 <config key="ShowDistribution_Internals">
 <entry key="SettingsModelID" type="xstring" value="SMID_boolean"/>
 <entry key="EnabledStatus" type="xboolean" value="true"/>
 </config>
 <entry key="ShowDistribution" type="xboolean" value="false"/>
+<config key="prediction column name_Internals">
+<entry key="SettingsModelID" type="xstring" value="SMID_string"/>
+<entry key="EnabledStatus" type="xboolean" value="false"/>
+</config>
+<entry key="prediction column name" type="xstring" value="Prediction (# Votes)"/>
+<config key="change prediction_Internals">
+<entry key="SettingsModelID" type="xstring" value="SMID_boolean"/>
+<entry key="EnabledStatus" type="xboolean" value="true"/>
+</config>
+<entry key="change prediction" type="xboolean" value="false"/>
 <config key="class probability suffix_Internals">
 <entry key="SettingsModelID" type="xstring" value="SMID_string"/>
 <entry key="EnabledStatus" type="xboolean" value="false"/>
@@ -53,12 +53,12 @@
 <entry key="index" type="xint" value="1"/>
 <entry key="port_spec_class" type="xstring" value="org.knime.core.data.DataTableSpec"/>
 <entry key="port_object_class" type="xstring" value="org.knime.core.node.BufferedDataTable"/>
-<entry key="port_object_summary" type="xstring" value="Rows: 6679, Cols: 6"/>
+<entry key="port_object_summary" type="xstring" value="Rows: 6679, Cols: 46"/>
 <entry key="port_dir_location" type="xstring" value="port_1"/>
 </config>
 </config>
 <config key="filestores">
 <entry key="file_store_location" type="xstring" isnull="true" value=""/>
-<entry key="file_store_id" type="xstring" value="13c828e5-0af1-419c-b552-fbaae47850b4"/>
+<entry key="file_store_id" type="xstring" value="1ea60207-4285-40f2-bf2c-808c0ebd5f7f"/>
 </config>
 </config>

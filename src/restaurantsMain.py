@@ -1,7 +1,7 @@
 import pandas as pd
 print("***********", "*zomatoCountryAdded.csv*", "***********", "\n", sep="\n")
 
-df_restaurants = pd.read_csv("zomatoMissingValuesRemoved.csv")
+df_restaurants = pd.read_csv("../data/zomatoMissingValuesRemoved.csv")
 print(df_restaurants.head(), "\n")
 print(df_restaurants.count(), "\n")
 print(df_restaurants.describe(), "\n")

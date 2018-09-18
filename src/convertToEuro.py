@@ -44,9 +44,3 @@ dfRest["Average Cost for two euro"] = pd.Series(euroData, index = dfRest.index)
 with open("restaurantsConvertedToEuro.csv", "w") as csvFile:
     csv = dfRest.to_csv(index = False)
     csvFile.write(csv)
-        
-        
-        
-        
-        
-        

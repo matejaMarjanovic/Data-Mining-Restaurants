@@ -10,7 +10,7 @@
 <entry key="SettingsModelID" type="xstring" value="SMID_string"/>
 <entry key="EnabledStatus" type="xboolean" value="true"/>
 </config>
-<entry key="classcol" type="xstring" value="# Votes"/>
+<entry key="classcol" type="xstring" value="Categorical Price"/>
 <config key="c_parameter_Internals">
 <entry key="SettingsModelID" type="xstring" value="SMID_double"/>
 <entry key="EnabledStatus" type="xboolean" value="true"/>
@@ -77,6 +77,6 @@
 </config>
 <config key="filestores">
 <entry key="file_store_location" type="xstring" isnull="true" value=""/>
-<entry key="file_store_id" type="xstring" value="f8657f81-492b-4c54-8ad3-644fdc284db5"/>
+<entry key="file_store_id" type="xstring" value="b42e1d34-0012-4e47-853b-69a1ebd1726d"/>
 </config>
 </config>

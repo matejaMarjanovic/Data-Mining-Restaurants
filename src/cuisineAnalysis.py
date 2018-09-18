@@ -1,7 +1,7 @@
 import pandas as pd
 import matplotlib.pyplot as plt
 
-df = pd.read_csv("ComparedPriceAndAvgSalary.csv")
+df = pd.read_csv("../data/ComparedPriceAndAvgSalary.csv")
 
 allCuisines = {}
 for i, row in df.iterrows():
@@ -15,7 +15,7 @@ for i, row in df.iterrows():
 forDeletion = []
 others = 0
 for k, v in allCuisines.items():
-    if v <= 25:
+    if v <= 40:
         forDeletion.append(k)
         others += v
 

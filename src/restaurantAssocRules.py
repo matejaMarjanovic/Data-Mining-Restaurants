@@ -2,7 +2,7 @@ import pandas as pd
 from mlxtend.frequent_patterns import apriori
 from mlxtend.frequent_patterns import association_rules
 
-df = pd.read_csv("restaurantsConvertedToEuro.csv")
+df = pd.read_csv("../data/restaurantsConvertedToEuro.csv")
 
 allCuisines = []
 for i, row in df.iterrows():
@@ -11,8 +11,6 @@ for i, row in df.iterrows():
         cuisine = cuisine
         if cuisine not in allCuisines:
             allCuisines.append(cuisine)
-
-#print(allCuisines)
 
 allCuisinesData = []
 for i in range(len(allCuisines)):
@@ -25,7 +23,6 @@ for i, row in df.iterrows():
             allCuisinesData[ind].append(1)
         else:
             allCuisinesData[ind].append(0)
-
 
 df2 = pd.DataFrame()
 for ind in range(len(allCuisines)):
@@ -44,11 +41,7 @@ for i, row in df.iterrows():
 for i in range(len(ratingsData)):
     df2[allRatingTexts[i]] = pd.Series(ratingsData[i], index = df2.index)
 
-    
-#print (df2)
-
 frequent_itemsets = apriori(df2, min_support=0.02, use_colnames=True)
 print(frequent_itemsets)
 rules = association_rules(frequent_itemsets, metric="confidence", min_threshold=0.3)
 print(rules)
-    

@@ -36,39 +36,39 @@
 <entry key="type" type="xstring" value="variable"/>
 <entry key="name" type="xstring" value="Accuracy"/>
 <entry key="class" type="xstring" value="DOUBLE"/>
-<entry key="value" type="xdouble" value="0.4100593782745372"/>
+<entry key="value" type="xdouble" value="0.4531140657802659"/>
 </config>
 <config key="Variable_6">
 <entry key="type" type="xstring" value="variable"/>
 <entry key="name" type="xstring" value="Error"/>
 <entry key="class" type="xstring" value="DOUBLE"/>
-<entry key="value" type="xdouble" value="0.5899406217254628"/>
+<entry key="value" type="xdouble" value="0.5468859342197341"/>
 </config>
 <config key="Variable_7">
 <entry key="type" type="xstring" value="variable"/>
 <entry key="name" type="xstring" value="#Correct"/>
 <entry key="class" type="xstring" value="INTEGER"/>
-<entry key="value" type="xint" value="1174"/>
+<entry key="value" type="xint" value="1295"/>
 </config>
 <config key="Variable_8">
 <entry key="type" type="xstring" value="variable"/>
 <entry key="name" type="xstring" value="#False"/>
 <entry key="class" type="xstring" value="INTEGER"/>
-<entry key="value" type="xint" value="1689"/>
+<entry key="value" type="xint" value="1563"/>
 </config>
 <config key="Variable_9">
 <entry key="type" type="xstring" value="variable"/>
 <entry key="name" type="xstring" value="Cohen's kappa"/>
 <entry key="class" type="xstring" value="DOUBLE"/>
-<entry key="value" type="xdouble" value="0.11512393663508963"/>
+<entry key="value" type="xdouble" value="0.2222403490282648"/>
 </config>
 </config>
 <config key="internal_node_subsettings">
 <entry key="memory_policy" type="xstring" value="CacheSmallInMemory"/>
 </config>
 <config key="model">
-<entry key="first" type="xstring" value="# Votes"/>
-<entry key="second" type="xstring" value="Prediction (# Votes)"/>
+<entry key="first" type="xstring" value="Categorical Price"/>
+<entry key="second" type="xstring" value="Prediction (Categorical Price)"/>
 <entry key="flowVarPrefix" type="xstring" isnull="true" value=""/>
 <entry key="sortingReversed" type="xboolean" value="false"/>
 <entry key="sortingStrategy" type="xint" value="0"/>
@@ -76,6 +76,10 @@
 </config>
 <entry key="customDescription" type="xstring" isnull="true" value=""/>
 <entry key="state" type="xstring" value="EXECUTED"/>
+<config key="nodecontainer_message">
+<entry key="type" type="xstring" value="WARNING"/>
+<entry key="message" type="xstring" value="There were missing values in the reference or in the prediction class columns."/>
+</config>
 <entry key="factory" type="xstring" value="org.knime.base.node.mine.scorer.accuracy.AccuracyScorerNodeFactory"/>
 <entry key="node-name" type="xstring" value="Scorer"/>
 <entry key="node-bundle-name" type="xstring" value="KNIME Base Nodes"/>
@@ -95,19 +99,19 @@
 <entry key="index" type="xint" value="1"/>
 <entry key="port_spec_class" type="xstring" value="org.knime.core.data.DataTableSpec"/>
 <entry key="port_object_class" type="xstring" value="org.knime.core.node.BufferedDataTable"/>
-<entry key="port_object_summary" type="xstring" value="Rows: 3, Cols: 3"/>
+<entry key="port_object_summary" type="xstring" value="Rows: 4, Cols: 4"/>
 <entry key="port_dir_location" type="xstring" value="port_1"/>
 </config>
 <config key="port_2">
 <entry key="index" type="xint" value="2"/>
 <entry key="port_spec_class" type="xstring" value="org.knime.core.data.DataTableSpec"/>
 <entry key="port_object_class" type="xstring" value="org.knime.core.node.BufferedDataTable"/>
-<entry key="port_object_summary" type="xstring" value="Rows: 4, Cols: 11"/>
+<entry key="port_object_summary" type="xstring" value="Rows: 5, Cols: 11"/>
 <entry key="port_dir_location" type="xstring" value="port_2"/>
 </config>
 </config>
 <config key="filestores">
 <entry key="file_store_location" type="xstring" isnull="true" value=""/>
-<entry key="file_store_id" type="xstring" value="f658ceb3-0278-407f-9f5f-2db866996681"/>
+<entry key="file_store_id" type="xstring" value="dd081585-2b61-4649-84e7-5b6029c9c016"/>
 </config>
 </config>

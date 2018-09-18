@@ -2,7 +2,7 @@ import pandas as pd
 import matplotlib.pyplot as plt
 import statistics as stat
 
-dfRest = pd.read_csv("ComparedPriceAndAvgSalary.csv")
+dfRest = pd.read_csv("../data/ComparedPriceAndAvgSalary.csv")
 
 sumCountryPrices = {}
 sumCountryPercentMean = {}

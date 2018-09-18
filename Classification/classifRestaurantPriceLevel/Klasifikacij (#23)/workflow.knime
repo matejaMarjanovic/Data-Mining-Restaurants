@@ -3,7 +3,7 @@
 <entry key="created_by" type="xstring" value="3.6.0.v201807100937"/>
 <entry key="created_by_nightly" type="xboolean" value="false"/>
 <entry key="version" type="xstring" value="3.6.0Pre"/>
-<entry key="name" type="xstring" value="Neuronske Mreze Test"/>
+<entry key="name" type="xstring" value="Klasifikacija RProp MLP Test"/>
 <config key="authorInformation">
 <entry key="authored-by" type="xstring" value="&lt;unknown&gt;"/>
 <entry key="authored-when" type="xstring" value="1970-01-01 01:00:00 +0100"/>

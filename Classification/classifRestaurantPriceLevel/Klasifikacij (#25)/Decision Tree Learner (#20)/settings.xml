@@ -10,7 +10,7 @@
 <entry key="SettingsModelID" type="xstring" value="SMID_string"/>
 <entry key="EnabledStatus" type="xboolean" value="true"/>
 </config>
-<entry key="classifyColumn" type="xstring" value="# Votes"/>
+<entry key="classifyColumn" type="xstring" value="Categorical Price"/>
 <config key="splitQualityMeasure_Internals">
 <entry key="SettingsModelID" type="xstring" value="SMID_string"/>
 <entry key="EnabledStatus" type="xboolean" value="true"/>
@@ -20,7 +20,7 @@
 <entry key="SettingsModelID" type="xstring" value="SMID_string"/>
 <entry key="EnabledStatus" type="xboolean" value="true"/>
 </config>
-<entry key="pruningMethod" type="xstring" value="No pruning"/>
+<entry key="pruningMethod" type="xstring" value="MDL"/>
 <config key="enableReducedErrorPruning_Internals">
 <entry key="SettingsModelID" type="xstring" value="SMID_boolean"/>
 <entry key="EnabledStatus" type="xboolean" value="true"/>
@@ -30,7 +30,7 @@
 <entry key="SettingsModelID" type="xstring" value="SMID_integer"/>
 <entry key="EnabledStatus" type="xboolean" value="true"/>
 </config>
-<entry key="minNumberRecordsPerNode" type="xint" value="16"/>
+<entry key="minNumberRecordsPerNode" type="xint" value="4"/>
 <config key="numverRecordsToView_Internals">
 <entry key="SettingsModelID" type="xstring" value="SMID_integer"/>
 <entry key="EnabledStatus" type="xboolean" value="true"/>
@@ -45,7 +45,7 @@
 <entry key="SettingsModelID" type="xstring" value="SMID_integer"/>
 <entry key="EnabledStatus" type="xboolean" value="true"/>
 </config>
-<entry key="numProcessors" type="xint" value="16"/>
+<entry key="numProcessors" type="xint" value="8"/>
 <config key="skipColumnsWithoutDomain_Internals">
 <entry key="SettingsModelID" type="xstring" value="SMID_boolean"/>
 <entry key="EnabledStatus" type="xboolean" value="true"/>
@@ -89,6 +89,10 @@
 </config>
 <entry key="customDescription" type="xstring" isnull="true" value=""/>
 <entry key="state" type="xstring" value="EXECUTED"/>
+<config key="nodecontainer_message">
+<entry key="type" type="xstring" value="WARNING"/>
+<entry key="message" type="xstring" value="10 rows removed due to missing class value;"/>
+</config>
 <entry key="factory" type="xstring" value="org.knime.base.node.mine.decisiontree2.learner2.DecisionTreeLearnerNodeFactory3"/>
 <entry key="node-name" type="xstring" value="Decision Tree Learner"/>
 <entry key="node-bundle-name" type="xstring" value="KNIME Base Nodes"/>
@@ -116,6 +120,6 @@
 </config>
 <config key="filestores">
 <entry key="file_store_location" type="xstring" isnull="true" value=""/>
-<entry key="file_store_id" type="xstring" value="336e9d45-7443-42c3-abce-1a27a5c42741"/>
+<entry key="file_store_id" type="xstring" value="0e08b3d9-6f1f-45a5-9105-4a40b23e6a04"/>
 </config>
 </config>

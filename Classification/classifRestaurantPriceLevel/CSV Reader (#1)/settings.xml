@@ -6,7 +6,7 @@
 <entry key="memory_policy" type="xstring" value="CacheSmallInMemory"/>
 </config>
 <config key="model">
-<entry key="url" type="xstring" value="/home/lav/Desktop/trenutno/ip/projekat/Data-Mining-Restaurants/AddedCategoricalVotes.csv"/>
+<entry key="url" type="xstring" value="/home/lav/Desktop/trenutno/ip/projekat/Data-Mining-Restaurants/AddedCuisineCols.csv"/>
 <entry key="colDelimiter" type="xstring" value=","/>
 <entry key="rowDelimiter" type="xstring" value="%%00010"/>
 <entry key="quote" type="xstring" value="&quot;"/>
@@ -40,12 +40,12 @@
 <entry key="index" type="xint" value="1"/>
 <entry key="port_spec_class" type="xstring" value="org.knime.core.data.DataTableSpec"/>
 <entry key="port_object_class" type="xstring" value="org.knime.core.node.BufferedDataTable"/>
-<entry key="port_object_summary" type="xstring" value="Rows: 9542, Cols: 25"/>
+<entry key="port_object_summary" type="xstring" value="Rows: 9542, Cols: 169"/>
 <entry key="port_dir_location" type="xstring" value="port_1"/>
 </config>
 </config>
 <config key="filestores">
 <entry key="file_store_location" type="xstring" isnull="true" value=""/>
-<entry key="file_store_id" type="xstring" value="6dc892eb-71a8-4de7-9b80-99f96cceb640"/>
+<entry key="file_store_id" type="xstring" value="a86d03dd-12db-455b-b7f8-84b41029d571"/>
 </config>
 </config>

@@ -10,7 +10,7 @@
 <entry key="SettingsModelID" type="xstring" value="SMID_string"/>
 <entry key="EnabledStatus" type="xboolean" value="true"/>
 </config>
-<entry key="classifyColumn" type="xstring" value="# Votes"/>
+<entry key="classifyColumn" type="xstring" value="Categorical Price"/>
 <config key="threshold_Internals">
 <entry key="SettingsModelID" type="xstring" value="SMID_double"/>
 <entry key="EnabledStatus" type="xboolean" value="true"/>
@@ -25,7 +25,7 @@
 <entry key="SettingsModelID" type="xstring" value="SMID_boolean"/>
 <entry key="EnabledStatus" type="xboolean" value="true"/>
 </config>
-<entry key="skipMissingVals" type="xboolean" value="false"/>
+<entry key="skipMissingVals" type="xboolean" value="true"/>
 <config key="compatiblePMML_Internals">
 <entry key="SettingsModelID" type="xstring" value="SMID_boolean"/>
 <entry key="EnabledStatus" type="xboolean" value="true"/>
@@ -62,12 +62,12 @@
 <entry key="index" type="xint" value="2"/>
 <entry key="port_spec_class" type="xstring" value="org.knime.core.data.DataTableSpec"/>
 <entry key="port_object_class" type="xstring" value="org.knime.core.node.BufferedDataTable"/>
-<entry key="port_object_summary" type="xstring" value="Rows: 15, Cols: 7"/>
+<entry key="port_object_summary" type="xstring" value="Rows: 180, Cols: 6"/>
 <entry key="port_dir_location" type="xstring" value="port_2"/>
 </config>
 </config>
 <config key="filestores">
 <entry key="file_store_location" type="xstring" isnull="true" value=""/>
-<entry key="file_store_id" type="xstring" value="1587e6a8-7247-452f-a354-821dfc36ad72"/>
+<entry key="file_store_id" type="xstring" value="9c50550f-7b37-490a-8451-eb1e8d981baf"/>
 </config>
 </config>

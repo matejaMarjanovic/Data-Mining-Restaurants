@@ -162,39 +162,39 @@
 <config key="connections">
 <config key="connection_0">
 <entry key="sourceID" type="xint" value="-1"/>
-<entry key="destID" type="xint" value="18"/>
+<entry key="destID" type="xint" value="24"/>
 <entry key="sourcePort" type="xint" value="1"/>
 <entry key="destPort" type="xint" value="2"/>
 </config>
 <config key="connection_1">
 <entry key="sourceID" type="xint" value="-1"/>
-<entry key="destID" type="xint" value="17"/>
+<entry key="destID" type="xint" value="23"/>
 <entry key="sourcePort" type="xint" value="0"/>
 <entry key="destPort" type="xint" value="1"/>
 </config>
 <config key="connection_2">
 <entry key="sourceID" type="xint" value="-1"/>
-<entry key="destID" type="xint" value="20"/>
-<entry key="sourcePort" type="xint" value="0"/>
-<entry key="destPort" type="xint" value="1"/>
-</config>
-<config key="connection_3">
-<entry key="sourceID" type="xint" value="-1"/>
 <entry key="destID" type="xint" value="21"/>
 <entry key="sourcePort" type="xint" value="1"/>
 <entry key="destPort" type="xint" value="2"/>
 </config>
-<config key="connection_4">
+<config key="connection_3">
 <entry key="sourceID" type="xint" value="-1"/>
-<entry key="destID" type="xint" value="23"/>
+<entry key="destID" type="xint" value="20"/>
 <entry key="sourcePort" type="xint" value="0"/>
 <entry key="destPort" type="xint" value="1"/>
 </config>
-<config key="connection_5">
+<config key="connection_4">
 <entry key="sourceID" type="xint" value="-1"/>
-<entry key="destID" type="xint" value="24"/>
+<entry key="destID" type="xint" value="18"/>
 <entry key="sourcePort" type="xint" value="1"/>
 <entry key="destPort" type="xint" value="2"/>
+</config>
+<config key="connection_5">
+<entry key="sourceID" type="xint" value="-1"/>
+<entry key="destID" type="xint" value="17"/>
+<entry key="sourcePort" type="xint" value="0"/>
+<entry key="destPort" type="xint" value="1"/>
 </config>
 <config key="connection_6">
 <entry key="sourceID" type="xint" value="17"/>
@@ -234,15 +234,15 @@
 </config>
 <config key="connection_12">
 <entry key="sourceID" type="xint" value="23"/>
-<entry key="destID" type="xint" value="24"/>
-<entry key="sourcePort" type="xint" value="1"/>
-<entry key="destPort" type="xint" value="1"/>
-</config>
-<config key="connection_13">
-<entry key="sourceID" type="xint" value="23"/>
 <entry key="destID" type="xint" value="-1"/>
 <entry key="sourcePort" type="xint" value="1"/>
 <entry key="destPort" type="xint" value="2"/>
+</config>
+<config key="connection_13">
+<entry key="sourceID" type="xint" value="23"/>
+<entry key="destID" type="xint" value="24"/>
+<entry key="sourcePort" type="xint" value="1"/>
+<entry key="destPort" type="xint" value="1"/>
 </config>
 <config key="connection_14">
 <entry key="sourceID" type="xint" value="24"/>
@@ -297,10 +297,10 @@
 </config>
 </config>
 <config key="workflow_editor_settings">
-<entry key="workflow.editor.snapToGrid" type="xboolean" value="false"/>
-<entry key="workflow.editor.ShowGrid" type="xboolean" value="false"/>
-<entry key="workflow.editor.gridX" type="xint" value="-1"/>
-<entry key="workflow.editor.gridY" type="xint" value="-1"/>
+<entry key="workflow.editor.snapToGrid" type="xboolean" value="true"/>
+<entry key="workflow.editor.ShowGrid" type="xboolean" value="true"/>
+<entry key="workflow.editor.gridX" type="xint" value="20"/>
+<entry key="workflow.editor.gridY" type="xint" value="20"/>
 <entry key="workflow.editor.zoomLevel" type="xdouble" value="1.0"/>
 <entry key="workflow.editor.curvedConnections" type="xboolean" value="false"/>
 <entry key="workflow.editor.connectionWidth" type="xint" value="1"/>

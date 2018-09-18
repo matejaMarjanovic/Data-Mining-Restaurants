@@ -1,6 +1,6 @@
 import pandas as pd
 
-df = pd.read_csv("ComparedPriceAndAvgSalary.csv")
+df = pd.read_csv("../data/ComparedPriceAndAvgSalary.csv")
 
 df = df.sort_values(by = "Votes")
 
